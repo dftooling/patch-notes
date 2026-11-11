@@ -1,0 +1,20 @@
+Released: July 21, 2022
+
+
+Events Node
+→ There is now a dedicated node for server events!
+→ Official DiamondFire events that take place on a plot can be hosted on this node.
+→ More resources + no LagSlayer means better event experiences at high player counts!
+→ Active events will appear in the center of the Game Menu.
+
+Code Changes
++ Powdered snow bucket can represent powdered snow as a code item.
++ /plot stats now has a 1-minute cooldown.
+
+Fixes
+≈ You can no longer /tip yourself.
+≈ Builder staff rank is now shown in tab list.
+≈ RandomNumber action now works correctly with very large numbers.
+≈ Code can no longer modify items inside code chests.
+≈ Set Age now works on all entities with an age value.
+≈ Fixed various code names and descriptions

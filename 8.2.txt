@@ -1,0 +1,28 @@
+Released: October 2, 2025
+
+
+Friend Changes
++ Added /friend list <page>
++ Added /friend l as an alias to /friend list
+» Changed /friend add <player> to work on offline players
+≈ Fixed /friend list not showing a next arrow when only one friend was on the next page
+
+Code Changes
+- Marked Player Action: Display Block Highlighter and Player Action: Clear Block Highlighters for removal, these actions will be no longer possible in client version 1.21.9
++ Added a "-c" flag to /rc to only remove code blocks instead of clearing your entire inventory
+
+Other Changes
++ Added support for 1.21.9 clients
++ Added /name <uuid> and /uuid <name>
++ Support members can now answer questions using a dialog which supports newlines and higher character limits
+
+Fixes
+≈ Fixed possible issues with saved variable loading
+≈ Fixed formatting for /patch list
+≈ Fixed some messages showing an empty command execution prompt when clicked
+≈ Fixed plot and action icons that use smithing templates or disc fragments showing extra lore lines
+≈ Fixed the Jukebox gadget not playing music
+≈ Fixed reference book chapters not being clickable
+
+Additional Changes - October 3, 2025
+≈ Fixed /friend list falsely displaying friends as offline

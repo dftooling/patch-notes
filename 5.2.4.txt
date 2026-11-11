@@ -1,0 +1,9 @@
+Released: September 11, 2020
+
+
++ Updated to 1.16.3! Players using the latest Minecraft version will now be able to join the server.
+→ 1.16.3 contains no changes that affect DiamondFire.
+
+≈ Fixed credits not being given when playing games.
+≈ Fixed an issue with certain chat filters not applying to private messages.
+≈ Fixed an issue with Player and Entity Action: Set Invulnerability Ticks. This fix was released in a hotfix a few days ago, and was not noted in any patch notes.

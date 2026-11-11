@@ -1,0 +1,41 @@
+Released: June 14, 2023
+
+
+New Features
++ Player Event: Player Resurrect Event
++ Entity Event: Entity Resurrect Event
++ Set Variable: Flatten List
++ Set Variable: Remove List Duplicate Elements
++ Set Variable: Set to Maximum Number
++ Set Variable: Set to Minimum Number
++ Game Value: Targeted Entity UUID
++ Player Action: Give Food
++ Player Action: Give Saturation
++ "Remainder Mode" tag in Set Variable: Set to Remainder
+→ Can be used to toggle between Remainder and Modulo
++ "Alignment Mode" tag in Player Action: Send Message Sequence
+→ You can now center messages sent using this code action
++ Dividing vectors is now supported in Set Variable: Divide
++ Whitespace, empty, and color Text items now have special item description
++ You can now easily insert letters in the chat text box by shift-clicking in /chars & /colors messages
++ Added a "-c" flag to /item send to send a copy of the item instead
++ You can now specify your pronouns using /pronouns. They display on your whois profile
++ /chat dnd will prevent players from messaging you, and will also hide plot advertisements
+» /chat none will now allow players to message you, and will also hide plot advertisements
+» Clarified how blocks are updated in Game Action: Set Blocks and Game Action: Set Region
+» When viewing your plot's functions/processes, the selected page icon will now glow.
+» Staff: You may now click your /whois to edit it
+» Improvements to using the bracket wand
+» Added a tag to If Variable: Is In Range to decide whether to round locations or not
+» When an entity fails to spawn, the Last Spawned Entity selector is now set to none
+→ A spawn can fail due to entity limit or being in an unloaded chunk
+
+Fixes
+≈ Slime blocks and pistons can no longer be used to pull blocks outside plots
+≈ Spawning many entities of specific type at once no longer bypasses the plot entity limit
+≈ "tinted" is now listed as a color in the /plot codespace message
+≈ The Fruit Basket gadget now launches fruit in all directions
+≈ Select Object: Filter by Sort now works correctly
+≈ Entity Action: Set Fishing Time now works properly
+≈ Game Value: Passengers now returns the proper output
+≈ The rules link in /rules is now clickable

@@ -1,0 +1,14 @@
+Released: April 4, 2016
+
++ Player Actions: Save/Load Inventory!
++ Added two new plot categories: Dropper and Trivia.
++ Added Player Actions: Enable/Disable Natural Regeneration.
++ Player Actions: Set XP Progress
++ Player Event: Right Click Entity
+
+→ Mob and block disguises now allow for custom names.
+→ Block disguises now allow for data values.
+
+≈ Clearing plots should now properly clear scoreboards.
+≈ Fixed internal error with random Mob actions.
+≈ Fixed issues with Player Event: Quit.

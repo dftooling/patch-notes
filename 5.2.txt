@@ -1,0 +1,36 @@
+Released: July 1, 2020
+
+→ 5.2 is finally here! Due to the size of this update, the full patch notes can be found on a forum post.
+→ Patch notes thread: https://mcdiamondfire.enjin.com/forum/m/30117777/viewthread/32960143-52-node-beta-patch-notes
+
++ Introducing the Process block! This block is similar to a function, but processes will run similarly to a new event.
++ It is now possible to copy and paste code! Simply break the entire line with shift+left click to get a Code Template.
+
+
+Notable Action and Value Changes
++ Game Action: Send Web Request
++ Game Value: Server Time
++ Entities can now have tags, similar to item tags.
+- Removed the Loop block. (Use Repeats and Processes)
++ There are over 100 new actions and values, these are just the most important changes.
+
+Other Changes
+↑ The server is now running on 1.15.2! 1.13 and 1.14 players will no longer be able to join.
+↑ The sound menu has been fully redesigned, including all new Minecraft sounds. Special thanks to homchom!
+↑ The reference book has been revamped to include new information. Special thanks to Owen1212055!
+↑ You can now insert code items into code chests by left clicking the chest with the item. A shift + left click variation is also available.
+↑ You can now insert a code block into a code line by placing the block against a stone block, or piston.
+
+Bug Fixes
+≈ Fixed the argument parser mistaking variable items for regular items.
+≈ Fixed issues with plural arguments.
+≈ Fixed several crash exploits.
+≈ Fixed most of the issues with our chat filter, including number sequences being blocked.
+→ ... and a lot more!
+
+Breaking Changes
+» Magma cream and book items may not work properly in code chests! If you experience issues with this, you must replace them yourself.
+» Game Action: Spawn TNT now has a default duration of 80 ticks, instead of 0.
+» Due to a format change of variable item data, variables kept in saved toolbars need to be updated.
+» Code blocks with no event or function block before them will need to be updated due to the previously mentioned format changes.
+→ Please refer to the full patch notes for a full list of breaking changes.

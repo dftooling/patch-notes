@@ -1,0 +1,6 @@
+Released: September 26, 2016
+
++ Player Action: Stop Sounds
++ Left clicking while holding a sound effect item will now stop the currently playing sounds.
+≈ Corrected a few typos in sound effect names.
+≈ Fixed a few edge cases that led to invisible chests.

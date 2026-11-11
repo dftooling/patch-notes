@@ -1,0 +1,31 @@
+Released: October 28, 2026
+
+
+Minecraft 26.3
+↑ DiamondFire is now updated to Minecraft 26.3!
++ You can now use all the new blocks, items, sounds, and particles
++ Cushions can be sat on by anyone, including in play mode
+→ Cushions are decoration entities, just like paintings and item frames
+
+Dialogs
++ Added support for dialogs, they're simple modal menus that can display information and receive player input
+→ Create dialogs with text, items, buttons, and inputs, then show them with Player Action: Open Dialog
++ Added 12 Set Variable actions for creating and editing dialogs (Hover)
++ Added Player Action: Open Dialog
++ Added Player Event: Click Dialog Button
++ Added Game Actions: Get Dialog Text and Get Dialog Number
++ Added If Game: Dialog Input Is True
++ Added Game Values: Click Dialog Event Dialog ID and Click Dialog Event Button ID
+→ Minecraft's dialog feature is experimental, so backwards compatibility cannot be guaranteed across Minecraft updates
+→ Dialogs do not persist in saved or bucket variables
+
+Code Changes
++ Added Player Action: Set Post Effects
+→ Apply post effects (shaders) to a player, usually from a resource pack
++ Added Poplar Tree to Game Action: Generate Tree
+» Renamed the Frame Sounds sound category to Decoration Sounds
+» Moved leaf particles to the Block Ambient particle category
+
+Other Changes
+» Changed some menu icons to use new 26.3 items
+» Renamed Paintings & Item Frames in /plot data to Decoration Entities

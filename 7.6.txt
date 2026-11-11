@@ -1,0 +1,35 @@
+Released: July 4, 2025
+
+
+Private Node Changes
++ Private Nodes now show up in the node selector
++ Private Node owners now have unlimited addons on their Private Node
+→ This does not include the Custom Handle addon
++ Added Private Node members
+→ Members can claim plots on the Private Node, but the plots will count toward their own plot limits
+→ Members can be added with /privatenode members add <name>
++ Added a way to set the spawn boundaries of Private Nodes with /privatenode lobby
++ Private Nodes can now be renamed with /privatenode rename <name>
++ Private Nodes now have a theme color configurable with /privatenode color <color>
+→ This color shows up in Private Nodes' node selector
+
+Code Changes
++ Added Set Variable: Get All Named Regex Groups
++ Added Set Variable: Get All Regex Groups
++ Added Set Variable: Get Regex Capture Group
+» Holding a variable and typing just a scope flag will now change its scope
+» Renamed JsonFromValue to JsonToValue for clarity
+
+Other Changes
++ Added tips that depend on the current mode
++ Added /clear to clear your inventory
++ Added detailed duration as a hover in the /vote and /boost cooldown messages
+» /ignorelist now sends in chat when in play mode
+» /back now works with /up
+» VIP Pass and Sponsor tags now have hover text
+- Removed the ability to purchase the 2025 Pride Month bundle
+
+Fixes
+≈ Fixed usage of optional where a None argument is present
+≈ Fixed a mistake in the reference book section on MiniMessage
+≈ Fixed an issue with the filter where certain characters would not be filtered correctly

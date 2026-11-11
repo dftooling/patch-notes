@@ -1,0 +1,42 @@
+Released: August 11, 2025
+
+
+Private Node Changes
++ Private Nodes now have 100MB of saved variable storage (+566% from 15MB!)
+» Private Nodes now track their expiration date and alert the owner when expiration is near
+→ Private Node owners can check the expiration date of their Private Node with /privatenode expiration
+
+String Changes
+» Strings can no longer be created with legacy color codes
+» Legacy Text values now retain their state and support legacy color codes
+» --legacy can be used in /str to create Legacy Text values
+≈ Legacy Text values now properly stack to 64
+
+Code Changes
++ If Variable: Dictionary Contains Keys
++ The length of Code Templates now show up in the item's lore
+» Code Templates can no longer be placed if they will intersect with a line, this can be bypassed by sneaking
+» If Variable: Value Is Empty now supports Strings and Styled Texts
+» Player Event: Player Projectile Hit Event now supports the Victim target
+≈ Fixed Set Variable: Wrap Number failing if the lower and upper bounds are equal
+
+Other Changes
++ Added /anvil to open an Anvil menu
+» Redesigned the Select Node menu to be less cluttered
+» Redesigned the Private Nodes section with a slight style change to the icons
+» The Your Tickets icon now stacks per 100 tickets when owning more than 100 tickets
+» A message is now sent when joining if the server is queued for a restart
+
+Fixes
+≈ Fixed /item count allowing inputs greater than 99
+≈ Fixed minor inconsistencies in action parameters, Special Spawn Eggs, values, messages, and more
+≈ Fixed an issue where plot owners could visually add and remove their own dev and build permissions
+≈ Fixed a trailing comma in the Game Mode Game Value
+≈ Fixed /usages sometimes going into infinite cooldown
+≈ Fixed an issue where certain keywords will fail in Game Value search
+≈ Fixed an issue where players would not be removed from teams in certain cases
+≈ Fixed the Weather preference being case sensitive when set through /preference
+≈ Fixed a kick that would occur when clicking the Reference Book after opening a book through it
+≈ Fixed /plot data vars not showing the correct saved variable limit for plots on Private Nodes
+≈ Fixed /chat being available in support sessions
+≈ Reduced the amount of cases where /locate fails and node player counts display incorrectly

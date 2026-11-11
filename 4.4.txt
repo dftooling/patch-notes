@@ -1,0 +1,20 @@
+Released: December 30, 2018
+
++ Player Event: Flight/Stop Flight
++ Player Action: Replace Projectile
++ Player Action: Set Remaining Air
++ Player and Entity Action: Set Fall Distance
++ PLayer Action: Force Flight
++ If Player: Is Grounded
++ Game Value: Bow Power
++ Game Value: Fall Distance
++ Game Value: Event Location
++ Game Value: Target Fluid Location
+↑ Game Value: Target Block Location now works with fluids.
+↑ Added projectile support for tridents, dragon fireballs, and llama spit.
+
+≈ MoveTo no longer crashes when used on a fish.
+≈ Fixed a few oddities in the function menu.
+≈ The Kill Mob event now works properly.
+≈ You can no longer take flowers out of pots in play mode.
+≈ Fixed cross-node locating.

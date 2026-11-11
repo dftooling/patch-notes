@@ -1,0 +1,61 @@
+Released: November 18, 2024
+
+
+Minecraft 1.21.1
+↑ Updated the server version to Minecraft 1.21.1
+→ New particle effects, potion effects and sound effects are available
+→ If you have missed the migration period before this patch, you can still scan for removed features by typing "/migration scan" command
++ Entity Action: Set Wolf Type
++ Player Action: Set Mining Attribute
++ Player Action: Set Reach Attribute
++ Set Variable: Set Item Maximum Stack Size
++ Set Variable: Get Food Property
++ Set Variable: Set Food Properties
++ Set Variable: Set Tool Properties
++ Set Variable: Add Tool Mining Rule
++ Set Variable: Set Tooltip Visible
++ Set Variable: Set Item Glowing
++ Set Variable: Set Item Maximum Durability
+
+New Player / Entity Attributes
++ Sweeping Damage Ratio attribute (Set Combat Attribute)
++ Gravity attribute (Set Falling Attribute)
++ Safe Fall Distance attribute (Set Falling Attribute)
++ Fall Damage Multiplier attribute (Set Falling Attribute)
++ Explosion Knockback Resistance attribute (Set Knockback Attribute)
++ Block Break Speed attribute (Set Mining Attribute)
++ Mining Efficiency attribute (Set Mining Attribute)
++ Submerged Mining Speed attribute (Set Mining Attribute)
++ Jump Strength attribute (Set Movement Attribute)
++ Sneaking Speed attribute (Set Movement Attribute)
++ Step Height attribute (Set Movement Attribute)
++ Movement Efficiency attribute (Set Movement Attribute)
++ Water Movement Efficiency attribute (Set Movement Attribute)
++ Block Interaction Range attribute (Set Reach Attribute)
++ Entity Interaction Range attribute (Set Reach Attribute)
++ Scale attribute (Set Miscellaneous Attribute)
++ Oxygen bonus attribute (Set Miscellaneous Attribute)
++ Burning Time attribute (Set Miscellaneous Attribute)
+
+Command Changes
++ /item maxstacksize
++ /item food
++ /item hidetooltip
+» /item glow can now remove the glint effect from already-glowing items such as nether stars
+
+Other Changes
++ Set Variable: Get Blocks by Minecraft Tag (Advanced)
++ Set Variable: Get Items by Minecraft Tag (Advanced)
+» Code block menus have been redesigned to allow more actions to be listed in the future updates
+» Potion Effect value menu has been redesigned for an improved organization
+» You can now use glowing items as plot icons
+→ You can now search for potion effects by typing in chat while holding a potion effect item
+» The amplifier of potion effect values is now limited between 1 and 256
+
+Fixes
+≈ Fixed Game Action: Set Item in Brushable Block not working
+≈ Fixed Player/Entity Action: Heal not being cancellable using Heal Event
+≈ Fixed "Reverse Portal" particle effect incorrectly showing regular portal particles instead
+≈ Fixed "Egg Crack" particle effect missing from the particle menu
+≈ Fixed a typo in "Zombie spawn reinforcements" attribute name
+- Removed "Jungle And Forest Music" sound effect which no longer existed in the game

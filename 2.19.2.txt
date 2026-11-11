@@ -1,0 +1,8 @@
+Released: August 22, 2016
+
++ Entity Action: Move To
++ Player and Entity Actions: Launch Toward
+
+≈ Fixed a bug where players got stuck in a specific mode.
+≈ Spawn Vehicle will no longer cause errors if used improperly.
+≈ Spawn Mob now works properly on the join event.

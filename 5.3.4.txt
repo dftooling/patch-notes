@@ -1,0 +1,32 @@
+Released: June 7, 2021
+
++ Plot Cloning
+→ You can now clone your plot using /plot clone
+→ This allows you to move, upgrade or even backup your plot
+→ Available to Noble+
+
++ Added /plot codespace remove
+↑ Select Object has been cleaned up; new icons, categories and merged actions
+↑ Set Player Time now supports moon phases (add 24000 per moon phase)
++ Added Player Action: Boost Elytra
++ Added Select Object: Filter by Raycast
++ Added Select Object: Invert Selection
++ Added Select Object: Filter Selection by Sort
++ Added Set Variable: Raycast from Location
++ Added Set Variable: Set to Direction Name
++ Added If Entity: Sheep Is Sheared
++ /support request now has a confirmation
+
+» The character limit on text values has been raised from 2000 to 2500
+» CP Decay now removes 2% of every point over 5,000 (Quartz), plus 6% of every point over 100,000
+- CP Decay no longer grants token progress
+- Removed ingame tutorial, instead players will be redirected to an online page
+- Removed examples from old Set Variable descriptions
+- Removed Mix Colors
+→ Can be replicated by getting the average of each RGB channel
+
+≈ Fixed the soul speed enchantment
+≈ Fixed searching aliases in the /heads menu
+≈ Fixed Entity Action: SetHealth not working
+≈ Player Action: Expand Inventory Menu should now support lists
+≈ /var now supports -l and -s before & after the stack size

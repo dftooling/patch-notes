@@ -1,0 +1,6 @@
+Released: May 19, 2016
+
++ Boosters now give payouts to their owners! While you booster is active, you will get 10% of any XP received.
+
+≈ Fixed an issue with the Target Block game value
+≈ Action bar and hologram actions will now properly handle numeric values.

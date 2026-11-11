@@ -1,0 +1,4 @@
+Released: October 28, 2023
+
+≈ Fixed bug where placing boats outside of plot bounds was possible
+≈ Fixed bug where riding entities under certain conditions caused a desync

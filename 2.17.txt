@@ -1,0 +1,12 @@
+Released: August 10, 2016
+
++ Player Events: Pickup, Drop, and Consume Item
++ Player Action: Enable/Disable Death Drops
++ Game Action: Spawn Exp Orb
++ Player Action: Auto Respawn
++ Player Action: Remove Arrows From Body
++ Added a target for the last spawned mob.
+
+→ Changed Clicked Item Equals to Item Equals for the new events.
+≈ Fixed spawn teleporting that was occurring on respawn.
+≈ Arrows are now cleared from players' bodies when they leave a plot.

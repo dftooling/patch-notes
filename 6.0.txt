@@ -1,0 +1,55 @@
+Released: September 5, 2023
+
+
+The "Text" Split
+» Functionality of "Text" value has been split into 2 code values:
++ "String" - A series of characters with no formatting. Highly manipulatable with variable operations
+→ Old Text values are converted to Strings. Color codes in old values are unchanged.
++ "Styled Text" - Text with extra formatting ability via MiniMessage tags. Use for text contents displayed to plot players
+→ See the next section of the patch note for more info on MiniMessage tags
++ Set Variable: Clear Formatting
++ Set Variable: Get MiniMessage Expression
++ Set Variable: Parse MiniMessage Expression
++ Set Variable: Trim Styled Text Content
+
+MiniMessage Tags
++ You can now use MiniMessage tags in many places including: styled texts, plot names, /item commands and more
+→ Example: "<rainbow>DiamondFire!" turns into a rainbow text!
+→ Example: "<click:run_command:@hello>Click me!" turns into a clickable text!
+→ See Reference Book for a list of all MiniMessage tags
+
+Function Parameters
++ Functions can now take in values when called, allowing for more neat and organized code
++ Parameter code item
+→ Used to define the parameters of a function. Put the parameter item in the function's chest to use.
+→ Right-click a parameter item to edit its properties
++ Line Variable Scope
+→ Line scoped variables are unique between each code line and will not interfere with each other
+→ Use the line scope to access values of function parameters
+
+Plot Resource Packs
++ Player Action: Send Resource Pack (Overlord Exclusive)
+→ The maximum size of the plot resource pack is 10 MiB.
+→ You can send one resource pack per player in each plot.
++ Player Event: Resource Pack Load
++ Player Event: Resource Pack Decline
++ If Player: Is Using Resource Pack
+
+Custom Sounds
++ Custom sounds are now supported in Sound values
+→ Custom sounds are provided by plot resource packs
+→ Type the key of the custom sound while holding a Sound item, or use /sound custom <key> to get a custom sound
++ Set Variable: Set Custom Sound Key
++ Set Variable: Get Custom Sound Key
+
+Miscellaneous
+» Plot names no longer have restrictions on special characters
+→ You can use up to 20 of any special symbols
++ You can now search for plots with special letters in their names
+→ Plot names like ᴛʜɪꜱ or ⓣⓗⓘⓢ are now searchable
+≈ Fixed wrong command help for /item editname
+≈ You can no longer put items in server menus (such as My Plots, Game Menu, etc.)
+≈ You can no longer use Tag Variable in the "Is Hidden" tag of functions and processes
+≈ Fixed wrong text color of "Potion Effects" in the description of Game Value: Potion Effects
+≈ Fixed a bug where color codes could be used when renaming a variable item in chat
+≈ Fixed some gadgets not working as intended when you have Orbital Headgear cosmetic equipped

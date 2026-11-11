@@ -1,0 +1,5 @@
+Released: June 18, 2016
+
++ Entity Action: Set Target
++ %entity can now be used in variables.
+≈ The plot sword can no longer be spammed.

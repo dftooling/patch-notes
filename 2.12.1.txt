@@ -1,0 +1,8 @@
+Released: April 1, 2016
+
++ Nobles can now see other players' levels with /level player <name>.
++ Player Action: Set Attack Speed
++ Player / Entity Actions: Set On Fire.
+≈ Attributes are now hidden on gadgets and in menus.
+
+→ No April Fool's tomfoolery. Nope. Definitely not...

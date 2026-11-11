@@ -1,0 +1,82 @@
+Released: June 26, 2025
+
+
+Croc Pet
++ After 3 years and 100 upvotes on DiamondFire Suggestions the Croc pet has been added!
+→ Croc costs 100 Tokens!
++ Added 5 Croc skins (hover)
+→ VIP Pass holders may set their Croc skin by pressing the Swap Hands button while riding Croc or when near it
++ Animated tail and legs
++ Step sounds and particles
++ Ambient noises
+→ ...and more?
+
+Code Changes
++ Added Player Event: Combust
++ Added Entity Event: Combust
+→ These events run when a player or entity catches on fire
++ Added Game Value: Combust Event Duration
++ Added Game Value: Combust Event Cause
++ Added Game Value: Plot Name
++ Added If Variable: Is Value Empty
+→ Works with items, lists, and dictionaries
++ Added Set Variable: ArcTan2
++ Added Set Variable: Clear Item Attributes
++ Added Set Variable: Remove Item Attributes
++ Added Set Variable: Interpolate Number, with 8 different interpolation types (Hover)
+→ This supports the easing modes "In", "Out", as well as "In Out"
++ Added Set Variable: Set Crossbow Projectiles
++ Added Set Variable: Get Crossbow Projectiles
++ Added Set Variable: Sanitize MiniMessage Tags
+» Changed the model data of variable items to represent their scope
+→ Game: 5000, Save: 5001, Local: 5002, Line: 5003
+» Changed Set Variable: Set Item Color to remove color when no color is provided
+» Changed Set Variable: Get/Set Item Color to work on firework stars
+» Changed Player Action: Send to Plot to accept handles
+» Changed /par get to support searching via /par get <search>
+» Call Function and Start Process blocks can now be right-clicked with a variable to set to a %var call
+» If Variable: List Size Equals has a new icon material
+- Removed note when creating a template in favor of code tips
+
+Compression Actions & Co
++ Added Set Variable: Convert Bytes to String
++ Added Set Variable: Convert String to Bytes
++ Added Set Variable: Decode from Base64
++ Added Set Variable: Encode to Base64
++ Added Set Variable: Decompress from Gzip
++ Added Set Variable: Compress to Gzip
++ Added Set Variable: Convert to JSON
++ Added Set Variable: Convert from JSON
+→ JSON actions work with strings and numbers, as well as lists and dictionaries whose values are strings or numbers.
+
+/usages
++ Added a new command: /usages
+→ This command lets you view (and teleport to) every place in your code where a specific function, process or action is called.
+→ Usage: /usages <function|process|player_action|...> <name|action>
+
+Other Changes
++ Added Baby Rabbit Pet
++ Added /stop for private node owners
+→ Accepts either "instant" with an optional reason, or "delayed" with an optional delay and reason
++ Added 2 new tips (Hover)
+» The Owner, Admin, and Dev ranks now override the accent color in /whois
+» Changed pets to always have 10 hearts of health, so that the health display is full when riding them
+» Changed /time and /weather to not affect the relevant preference
+
+Fixes
+≈ Fixed invalid players showing up in /ignorelist
+≈ Fixed placing items in menus while in dev mode not being cancelled
+≈ Fixed cursor item being overridden when right-clicking a parameter item
+≈ Fixed a typo in the Reference Book
+≈ Fixed /back not working for /p tp
+→ This also fixes /back not working for clickable LagSlayer messages
+≈ Fixed /stafflist not properly formatting the about field
+≈ Fixed Player Action: Send Advancement causing a kick when an item isn't specified
+≈ Fixed Set Variable: Parse MiniMessage parsing legacy color codes even when tag was set to False
+≈ Fixed /weather thunder applying rain instead
+
+Additional Changes - June 27, 2025
+≈ Fixed compression actions having outdated descriptions
+≈ Fixed node lag when trying to SendMessage a large list
+≈ Fixed a formatting issue in the 7.5 patch notes
+≈ Fixed Convert to JSON incorrectly applying String value limits

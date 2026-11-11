@@ -1,0 +1,20 @@
+Released: February 2, 2018
+
++ Added a new code block: If Game!
++ You can now check blocks at locations, items in containers, and sign text.
+
++ Player Event: Walk
++ Player Event: Take Fall Damage
++ Player Action: Set Item in Off Hand
++ Set Variable: Get Text Length
++ Game Action: Clear Scoreboard
++ Game Action: Break Block
++ Entity Action: Hide/Show Name Tag
++ /plot invpurge
++ You can now search for variables with /plot vars.
+
+→ If Variable now defaults to Equals.
+→ /plot vars is now cleaner
+→ Plot developers now have access to /plot codespace and //plot vars
+- Healing dead players is no longer possible.
+- The support star has been removed from the dev inventory.

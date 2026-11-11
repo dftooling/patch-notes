@@ -1,0 +1,43 @@
+Released: March 22, 2024
+
++ VIP Pass holders can now set a custom profile message using /profile set.
+
+Code Changes
++ Player Event: Click Container Slot
++ Player Event: Exhaustion
++ Player Action: Set Exhaustion Level
++ Player Action: Give Exhaustion
++ Game Value: Exhaustion Event Cause
++ Game Value: Event Exhaustion
+» Entity Action: Set Name Visible now has a "Never" tag
+» Entity Action: Set Invisible can now be used on all entities
++ If Variable: Block Is Solid
++ If Variable: Item Is Block
++ If Game: Location Is In Block
+» Set Variable: Bitwise now has some additional use information
+≈ Fixed Player Action: Give Food and Player Action: Give Saturation actions being uncapped
+≈ Fixed an issue where certain function parameters could modify items in code chests
+≈ Fixed an issue where cherry and bamboo wall signs weren't detected with If Player: Is Looking At
+
+Command Changes
++ /codespace underground <create/remove> carves out or fills in the lower portion of the codespace
++ /gamemode (/gm) <mode> allows players to switch gamemode if they're a plot dev or are in build mode
+→ The ability to switch to adventure/survival is currently limited to play mode, but this is likely to change in a future patch
++ /last (/l or /t) can be used to send messages to the player last messaged
++ /bracket to obtain a new Bracket Wand
++ /glitch to obtain a new Glitch Stick
++ /reference to obtain a new Reference Book
+» /codespace <add/underground> now automatically generates lined codespaces without the -l flag
+→ To continue obtaining a full codespace with the command, -f can be used
+» /plot tp now allows you to teleport to players who are in any mode, and can also be used in any mode
+≈ Fixed /ignorelist failing to open a GUI if an invalid player was ignored
+≈ Fixed /gamevalue returning exceptions and showing recommendations to non plot devs
+≈ Fixed /cancel not appearing in the help message
+≈ /plot dev and /plot builder now properly list 'clear' as an option
+≈ Fixed a bug where clearing the dev area would leave behind ghost blocks
+
+Miscellaneous
+» Players with permission to run /fly at spawn will now automatically have flight upon entering spawn
+» The CANCEL Wand has been renamed back to the CANCEL Scythe
+» The compact inventory now contains a reference book
+≈ Fixed the support queue timer being out of sync due to daylight savings

@@ -1,0 +1,6 @@
+Released: August 20, 2016
+
++ Redstone is now enabled!
+
+≈ Chunks no longer glitch on mode switch.
+≈ The Runic Tornado gadget now has smoother movement.

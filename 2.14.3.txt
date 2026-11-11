@@ -1,0 +1,9 @@
+Released: April 24, 2016
+
++ Player Events: Place/Break Block
++ If Player: Block Equals
++ Added a bunch of missing sounds.
++ Added Game Action: Cancel Event. Can be used to prevent damage and click events.
+
+→ Redesigned the sound menu to have multiple pages and categories.
+≈ Fixed a bug with If Player: Is Wearing

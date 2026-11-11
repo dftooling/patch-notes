@@ -1,0 +1,16 @@
+Released: February 15, 2024
+
++ The VIP pass was introduced on March 2nd.
+
+Changes
+» /i glow now applies Riptide instead of Lure to fishing rods
+→ Fishing rods with glow applied that were created before this patch will not equal new fishing rods
+» Entity Action: Set Display Teleport Duration is now locked to Mythic and above for consistency with other actions
+» CANCEL Scythe's description now specifies that you should Right Click to use it
+
+Fixes
+≈ Fixed sound variants not matching their actual sound
+≈ Fixed If Player: Is Standing On not working with Player Event: Walk
+≈ Fixed issues related to Player Action: Set Absorption Health
+≈ Fixed /p codespace add <color> returning an exception
+≈ Fixed noteblocks with heads above them being able to play sounds across the entire node

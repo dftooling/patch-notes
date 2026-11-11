@@ -1,0 +1,19 @@
+Released: July 22, 2020
+
+→ Read the full 5.2 patch notes here: https://mcdiamondfire.enjin.com/forum/m/30117777/viewthread/32960143-52-node-beta-patch-notes
+
++ Added an alias for /plot spawn: /plot s.
+
+» Boosters now last 3 hours instead of 1 hour.
+» Player Event: Place Block now works with event item values and conditions.
+» Player Event: Right Click and Left Click now works with event block values and conditions.
+
+≈ Fixed the rank requirement for Player Action: Send Player Animation, and Player Action: Send Player Attack Animation. These actions will no longer work for unranked players. Sorry if this breaks some code.
+≈ Fixed old Set Variable: Get Normally Distributed Random actions.
+≈ Fixed the optional parameter in Set Variable: Wrap Number.
+≈ Fixed the body attribute slot option in Set Variable: Add Item Attribute.
+≈ Fixed Set Variable: Get Direction.
+≈ Fixed an issue with If Player: Inventory Type Open.
+≈ Fixed some issues with Player Action: Disallow Placing/Breaking Blocks.
+≈ Fixed left clicking blocks in adventure mode triggering two left click events.
+≈ Fixed some list game values not working as list arguments in actions.

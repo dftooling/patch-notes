@@ -1,0 +1,13 @@
+Released: August 9, 2017
+
++ Plot Ads! You can now advertise your plot with a global message!
++ You can now earn credits for joining plots in the Recently Updated section.
++ You can now purchase special spawn eggs with credits.
++ Added more entity targets.
++ When a booster is active, you can tip its owner with /tip to earn credits.
++ /whois command to show player ranks.
++ /stafflist
+
+→ The Illusioner mob is now fully supported.
+→ LagSlayer is now more accurate.
+≈ Fixed a bug where some players were not getting items they purchased with credits.

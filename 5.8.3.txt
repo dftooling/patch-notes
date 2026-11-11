@@ -1,0 +1,39 @@
+Released: June 28, 2023
+
+
+New Features
++ New characters in /chars
++ Player Action: Set Allow Hand Crafting
++ Player Action: Set Visual Shoulder Parrot
++ Player Action: Set Name Tag Visible
++ Player Action: Set Name Prefix / Suffix
+→ Shows a prefix or suffix in the player list and on the player's name tag
++ Set Variable: Pop Value from List
++ Entity Event: Sheep Regrow Wool
++ Game Value: Entity Midpoint Location
++ Game Value: Entity Height
++ Game Value: Entity Width
++ Game Value: Plot ID
++ Game Value: Plot Size
++ Set Variable: Get Item Breakable Blocks
++ Set Variable: Get Item Placeable Blocks
++ /upward
+→ Allows you to teleport upwards and place a glass below you
++ /i whitelist edit
+→ Allows you to edit an existing item's whitelist
+» If Variable: Contains Value now has an Any/All tag
+» Right clicking an event will now teleport you to its location, if already placed
+» Fruit Basket gadget speed boost now lasts longer
+» Staff will no longer be kicked for being AFK
+» Builders can now set their /whois
+» Pronouns are displayed nicer in /whois
+» Entity Action: Damage now has a source parameter
+
+Fixes
+≈ Chat Local and DND now save when switching modes on a plot
+≈ Can no longer message players while in Do Not Disturb
+≈ Newlines now properly show up when editing /whois
+≈ List size should no longer desynchronize upon creation
+≈ /msg is no longer case-sensitive
+≈ /help now properly shows that chat DND is an option
+≈ Players will no longer collide with each other when they shouldn't

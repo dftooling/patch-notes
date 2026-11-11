@@ -1,0 +1,23 @@
+Released: February 25, 2018
+
++ Set Variable: Set to Random Object
++ /reset (/rs) resets your dev inventory.
++ /compact (/rc) resets your dev inventory with a more compact layout.
++ Players on all nodes will now be notified when a node comes online.
++ /spawn will now take you to the spawn point even if you are idle.
+↑ Game Value: Target Block Location is now more accurate.
+
+≈ Fixed a bug with damage randomly being cancelled.
+≈ Block drops are now properly centered when spawned with code.
+≈ Splash and lingering potions now work properly in Launch Projectile.
+≈ The Right Click Entity event no longer fires for entities outside of play mode.
+≈ /plot vars will no longer cause lag
+≈ Fixed block placement restrictions in plots.
+≈ Players can now fill and empty buckets in play mode.
+≈ Fixed a glitch where players would have no gravity in spawn.
+≈ Fixed an error with /mode play on whitelisted plots.
+≈ The function menu will now work properly.
+≈ Blank Player Actions will no longer break the code reader.
+≈ If Game: Block Equals (Air) no longer causes an internal error.
+≈ Cursor items are properly cleared upon returning to spawn.
+≈ Set Variable: Set X/Y/Z should now work properly.

@@ -1,0 +1,15 @@
+Released: June 29, 2016
+
++ DiamondFire should now run much smoother.
++ Plots now show the node they are on.
++ Plot menu items now play a sound when interacted with.
++ Joining a game will now tell you who owns the plot.
+
+→ Plot listings have been redesigned.
+→ Plot searching is now much faster.
+≈ Favorite plots appear properly in the all games menu.
+
+- Disabled the featured system. A better way to promote plots is in the works.
+- Removed the My Favorites item as it is no longer necessary.
+- Plots no longer show all time votes.
+- Removed the plot sword.

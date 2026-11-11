@@ -1,0 +1,47 @@
+Released: November 20, 2021
+
+
+Introducing dictionaries
+→ Dictionaries represent key-value pairs similar to tables. They are used to store and retrieve information with keys
+→ Dictionaries can have a total of 5,000 elements, the same as lists. The sizes of both sublists and sub-dictionaries are included in this cap
+» Some actions such as Set Variable: Get Item Enchantments now return dictionaries instead of lists
+
+New Code Actions
++ Set Variable: Create Dictionary
++ Set Variable: Set Dictionary Value
++ Set Variable: Get Dictionary Value
++ Set Variable: Get Dictionary Size
++ Set Variable: Remove Dictionary Entry
++ Set Variable: Clear Dictionary
++ Set Variable: Get Dictionary Keys
++ Set Variable: Get Dictionary Values
++ Set Variable: Append Dictionary
++ If Variable: Dictionary Has Key
++ If Variable: Dictionary Value Equals
++ Repeat: Repeat For Each Dictionary Entry
+
+Cosmetics
++ Jukebox Gadget
++ Cannon Gadget
++ Colorful Wings Toggle
+
+Miscellaneous
++ /colors command which shows a color palette in chat
++ Game Action: Send Web Request now contains a header to identify that the request is sent from DiamondFire
+→ The "User-Agent" property will say "DiamondFire/<patch> (<plot ID>,<plot owner>)"
+- Player Action: Randomized Teleport has been removed
+» /plot varpurge now has a confirmation GUI before clearing the variables
+» /plot whitelist is now available for everyone (No more rank requirements)
+» Entity Action: Set Persistent now works with Falling Blocks
+» Expert rank is renamed to SrHelper
+
+Fixes
+≈ Set Variable: Shift Location on Vector not returning correct location when given a zero vector
+≈ Possibility of a node crash caused by legacy raycast related Set Variable actions
+≈ Item Frame being mentioned in the description of Entity Action: Set Entity Item
+≈ Lobby spawn location not being centered when you join a node
+≈ Being able to join plots that are being unclaimed
+≈ Holograms not displaying correctly on Minecraft 1.17 users
+≈ Falling Blocks creating ghost blocks when they reform inside water
+≈ /item mshead not accepting new head IDs
+→ The command now accepts URLs of MineSkin website

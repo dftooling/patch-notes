@@ -1,0 +1,36 @@
+Released: December 19, 2025
+
+
+Code Changes
++ Added /usages variable to look for usages of variables, check out /help dev for more info
++ Added Set Variable: Set to Random Vector
++ Added Set Variable: Set to Vector from Rotation
++ Added Set Variable: Swap Vector Components
++ Added Set Variable: Set to Decimal RGB
++ Added Set Variable: Segment String
+» Changed Set Variable: Set to Vector to show String input behavior
+» Changed Set Variable: Set to Logarithm to use the value of the variable when the value is unset
+» Changed the result item of code block copying to list modifiers like chest and code block contents
+» Game Value: Event Item now works with Click Entity events
+≈ Fixed Control: Send Debug Message not working when the sound tag was set to None
+≈ Fixed If Variable: Value = failing when comparing visually equal Styled Texts
+≈ Fixed Repeat: Do While not supporting the NOT Arrow
+≈ Fixed Entity Action: Set Fox Leaping not working
+≈ Fixed a typo in Player Action: Set Status
+≈ Fixed sneak breaking Else code blocks not working
+≈ Fixed code blocks with brackets dropping chest contents when broken while sneaking
+≈ Fixed Function and Process icons not supporting enchantment glint
+≈ Fixed tag item counts not showing in some actions
+≈ Fixed list limits not being properly calculated with nested lists/dictionaries
+
+Other Changes
++ Added more join date badges
++ Added /favorites
+» The name of approved products can now be edited
+≈ Fixed sponsor and join date badges missing numbers
+≈ Fixed join date badges ending one badge early
+≈ Fixed durations in messages that are less than 1 second showing incorrectly
+≈ Fixed boost cooldown of newly claimed plots not resetting
+≈ Fixed the camera distance attribute not appearing in some cases
+≈ Fixed cases where voting on a plot could cause lag
+≈ Fixed the spark product purchase book not closing when you click confirm

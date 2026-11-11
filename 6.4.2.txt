@@ -1,0 +1,5 @@
+Released: May 23, 2024
+
++ Player Action: Display Head Texture
+≈ Plot Chat Mode preference is now correctly applied
+≈ Fixed an issue with preference permissions

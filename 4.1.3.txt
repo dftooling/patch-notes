@@ -1,0 +1,25 @@
+Released: March 11, 2018
+
+
+Discord Update
++ Discord now requires an automated verification to talk.
+→ Use /verify and follow the instructions to link your Discord and Minecraft accounts.
+→ Big thanks to VerifyBot developer, RedstoneDaedalus!
+
+↑ WorldEdit permissions now include //gmask.
++ /plot setspawn
++ /walkspeed
++ If Player: Cursor Item Equals
++ Player Action: Set Flight Speed
++ Player Action: Set Walk Speed
++ Player Action: Clear All Potion Effects
++ Player Event: Click Item in Own Inventory
+↑ /locate now includes plot names.
+↑ /plot vars [text] now supports spaces.
+↑ /plot varpurge [text] now supports spaces.
+
+→ If Container: Has Item now checks the entire item data, not just type.
+≈ Fixed a bug with quotes in titles.
+≈ You can now unignore offline players.
+≈ /plot whitelist no longer shows duplicated names.
+≈ Player Event: Right Click now fires properly when looking at an ender chest.

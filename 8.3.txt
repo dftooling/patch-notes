@@ -1,0 +1,31 @@
+Released: October 25, 2025
+
+
+Better Disguises
++ Added Player/Entity Action: Mimic Entity
+→ This copies all the visual properties of an existing entity and uses them for the disguise!
++ Added Player/Entity Action: Shift Disguise Vertically
++ Added Player/Entity Action: Lock Disguise Rotation
+
+Code Changes
++ Added Select Object: Entity by UUID
+→ This allows for highly performant selection of entities, especially with a lot of entities on your plot
++ Added "Signed" tags to Set Variable: Decode from Base64 and Set Variable: Decompress from Gzip
++ Added support for setting the harness of Happy Ghasts using Entity Action: Set Entity Equipment
++ Added support for boats in the Entity Action: Attach Lead
+≈ Fixed Player Event: Vehicle Jump, Game Value: Steer Forward Movement, and Game Value: Steer Sideways Movement not working
+
+Other Changes
++ Added the ✂ and 🪣 icons to the first page of /emo
++ Private Nodes now have a loaded variable limit of 2 million (+300% from 500,000!)
+» Updated the MiniMessage documentation link in the reference book
+» When selecting a pet your old pet is now deselected instead of an error being sent
+» Renamed /plot custom_model_data to /plot modeldata
+
+Fixes
+≈ Fixed the Chat Mode preference not working properly for Local chat
+≈ Fixed some bugs that could cause node crashes
+≈ Fixed /itemframe not working
+≈ Fixed improper pluralization for the Join Date and Sponsor badges
+≈ Fixed being able to add yourself as a Private Node member
+≈ Fixed accepting a friend request of an offline player sending you an error message

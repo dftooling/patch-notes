@@ -1,0 +1,67 @@
+Released: January 21, 2026
+
+
+World Plots
++ Added World Plots that have a Mega sized codespace (301x301) and an entire world for its play and build space
+→ These are currently exclusive to Private Nodes, 2 are given for free included with your subscription
++ Cloning between World Plots is supported
+
+1.21.11 Support
+↑ DiamondFire is now updated to Minecraft 1.21.11!
++ You can now use all the new mobs, entities, sounds, particles, and attributes
+→ Sounds from 1.21.11 will be added in a future patch due to technical limitations
++ Added 9 new actions for the version's content (Hover)
+» Flash particle now supports color
+» Effect, Instant Effect, and Dragon Breath particles now supports power
+- Removed block highlight actions as they were removed from Minecraft
+
+Game Events
+→ Game Event is a new code block used to detect plot or world block events
+→ Game Events do not run on a default target, so be mindful to select entities when trying to use certain actions
+→ Block-related Game Events are exclusive to World Plots
++ Game Event: Plot Startup Event
++ Game Event: Plot Shutdown Event
++ Game Event: Plot LagSlayer Recover Event
++ And many more!
+
+Process Parameters
++ The Parameter item can now also be used with Processes to set their parameters
+
+Code Changes
++ Significantly increased the performance of action execution
++ Saved variables now save much faster
++ Added Set Variable: Destructure List
++ Added Control: End All Threads
+» Plots with over 30 players now save variables periodically rather than on player quit to improve performance
+≈ Fixed issues with variable scopes in Variable typed Parameters
+
+Other Changes
++ Added /item contents to open containers in your main hand
++ Toggle, Pet, and Cosmetic variants are now condensed and can be viewed with right-click
++ Added a sound and visual indicator for chat messages that mention your name
++ Added a hover tooltip for player names in chat to show their head, name, and pronouns
+» Changed /item hide all to no longer hide lore, can be manually hidden with /item hide lore
+» Changed the /plot clone menu to be paged
+≈ Fixed not being able to message yourself when messages are set to friends only
+≈ Fixed some possible server stutters on player quit
+≈ Fixed a memory leak related to display entities
+≈ Fixed /usages case sensitivity
+≈ Fixed cooldowns showing a blank duration when at 0
+≈ Fixed pale oak signs not working in sign related actions
+
+Additional Changes - January 24, 2026
++ Added Pale Oak trees to Game Action: Generate Tree
++ Added support for the spear animation to item food animations
+≈ Fixed /up using wrong plot boundaries
+≈ Fixed /plot codespace remove clearing incorrectly
+≈ Fixed Entity Explode Event not properly working on non-World Plots
+≈ Fixed process parameters not working properly
+≈ Fixed actions purchased with tokens not working
+≈ Fixed Player Action: Shift World Border time argument not working properly
+≈ Fixed the base of the walking speed attribute in Entity/Player Action: Set Movement Attribute being too large
+
+Additional Changes - January 25, 2026
+≈ Fixed Player Action: Display Sign Text not working with client-side signs
+≈ Fixed teleportation caused by code not being cancellable
+≈ Fixed /friend list not working properly, there may still be issues where a players location is unknown
+≈ Fixed pronouns not saving properly

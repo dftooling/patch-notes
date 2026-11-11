@@ -1,0 +1,28 @@
+Released: December 7, 2018
+
+↑ We are now on Minecraft 1.13!
++ Added every new sound effect from 1.13!
++ You can also use blocks, potions, particles, and items added in 1.13.
+
+Lore Rework: Part 2
++ The new documentation for code actions has been improved further!
+↑ Code actions are now grouped by color! You can tell the functionality of an action by its name color.
+→ Changed and fixed 29 names, 35 lores, and 31 icons of code actions and items.
+→ Changed and fixed 12 names, 3 category names, and 54 icons of sound effects.
+↑ Some of the actions and sound effects use new blocks and items introduced in 1.13!
+
+Set Block And Block Equals
++ You can now use IDs in Set Block and Block Equals by putting a text item inside the parameter chest instead of an item.
+→ Since 1.13 got rid of the numerical block data system, you now have more precise control over rotation, direction, and other block states.
+
+But wait, there's more!
++ Added 6 missing particle effects from before 1.13.
++ You can now specify a 2nd player name in the disguise action for the disguise's skin.
+↑ You can now make sounds louder! At max volume, you can hear them from 320 blocks away.
+↑ The plot creation menu now shows how many plots you have left of each size.
+≈ The Remove Text action can now remove all characters.
+≈ You can no longer remove players with the glitch stick.
+↑ Updated look and feel to patch notes!
++ Set Variable: Center Location
+- Due to 1.13's changes to block data, you can no longer use numerical values in these actions.
+≈ Beacons can no longer be opened, and cannot give status effects.

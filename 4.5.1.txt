@@ -1,0 +1,8 @@
+Released: January 30, 2019
+
++ Player Action: Set Name Color
+↑ Streamlined and redesigned game values.
+→ Plot borders will now push you back.
+
+≈ WorldEdit commands can no longer be used outside of build mode.
+≈ Fixed a bug with Player Action: Expand Inventory not updating expanded inventories.

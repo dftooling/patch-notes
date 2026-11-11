@@ -1,0 +1,22 @@
+Released: February 14, 2023
+
+
+Quality of Life
++ "/plot editname" to easily change parts of the plot's name
++ When naming a variable, typing "-l", "-g" or "-s" in chat after the variable name now changes the variable scope
+→ Example: Typing "blockId -l" while holding a variable item gives you a local variable named "blockId"
+» You can now click item tags shown in "/item tag list" to edit them
+
+Sound Variants
+≈ Sound variants now work properly in all sound source types
+
+Entity Limits
+→ The entity limit on a plot sometimes may appear reduced due to entity bugs
+» To mitigate this, we now reset the limits when all players leave the plot
+
+Plot Menu Votes
+≈ Fixed a bug where the plot menu sometimes showed all plots as having 0 votes
+
+Token Shop
+→ We're still investigating a bug which causes token purchases to disappear
+» If this happens, it should now fix itself after rejoining or switching nodes

@@ -1,0 +1,12 @@
+Released: July 16, 2019
+
++ Player Event: Break Item
++ Player Event: Close Inventory
++ Game Value: Inventory Close Cause
++ Set Variable: Find Center
+
+» Votes are now broadcast to all players on the plot.
+
+≈ Fixed item variables not saving properly in some situations.
+≈ Fixed certain combinations of arguments not working properly in Set Item Cooldown.
+≈ Item frames and paintings will no longer randomly disappear.

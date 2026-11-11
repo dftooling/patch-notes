@@ -1,0 +1,17 @@
+Released: June 13, 2024
+
+→ In case you missed it, DiamondFire is still celebrating Pride Month! (See more with /patch 6.5)
+
+Mega Plots
++ DiamondFire is introducing mega plots, a new 1000x1000 plot size with a 300x300 codespace! Mega plots will be available for purchase starting at 11am PDT on June 15th.
++ At over 11 times the size of a massive plot, with a massive-plot-sized codespace, the mega plot provides unrivaled space for game creation!
++ Mega Plots have new entity limits of: 300 mobs, 500 projectiles, 500 general entities, 600 dropped items, 5000 paintings and item frames, 1000 falling blocks, 10 withers, 30 ender dragons, 2000 armorstands, and 5000 display entities.
+
+Transactions
++ Transactions are a new, advanced method of setting blocks that allow for much faster changes to the world than Game Action: Set Region. This is done by queuing up any desired block changes and then making them all at once.
+→ Transactions are limited in size to 1 million blocks. For the best performance, it is recommended to set transactions in regions instead of individual blocks.
+
+Miscellaneous
++ The plot claiming menu has been given a new coat of paint to fit in with other new menus.
+≈ Fixed /p data being able to lag out the server with high amounts of codeblocks.
+≈ Fixed code template placements causing extreme server lag.

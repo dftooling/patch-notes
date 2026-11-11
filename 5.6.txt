@@ -1,0 +1,32 @@
+Released: October 22, 2022
+
+
+Minecraft 1.19
+→ DiamondFire is now updated to Minecraft 1.19! You can now use all the new mobs, sounds, and particles from The Wild Update!
++ Entity Action: Set Frog Variant
++ Entity Action: Eat Target
++ Entity Action: Set Warden Digging
++ Entity Action: Set Warden Anger
++ Entity Action: Set Goat Horns
++ Mangrove Tree in Game Action: Generate Tree
+
+Per-player Scoreboard Sidebars
+→ You can now display different scoreboard sidebars for each player!
+» Moved all scoreboard-related actions from Game Actions to Player Actions
+» You can now use hex colors in score names
+» Lengths of score names are now unlimited
+
+Miscellaneous
++ Player Action: Set Bee Stings Stuck
++ Added "Keep Velocity" tag in Player Action: Teleport
++ My plots, heads search and code values menu can now have multiple pages
++ Added a new song in Jukebox Gadget
++ Added 🍖 (Meat On Bone) in /characters
++ New reference book categories for Plot Limits and Community have been added
++ Description for %math text code in Reference Book now has an extra hover text
+» Player Action: Hide Entity now keeps entities hidden after chunks are reloaded
+» Player Action: Display Block can now display up to 250,000 blocks at once
+≈ Players can no longer place Glowing Item Frames in play mode
+≈ Fixed distances of 6 and 7 chunks not working in Player Action: Set Fog Distance
+≈ Fixed the wrong menu in Nether Animal Sounds category
+≈ Fixed wrong information in the description of Player Action: Display Lightning Bolt

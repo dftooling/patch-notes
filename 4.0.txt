@@ -1,0 +1,34 @@
+Released: December 26, 2017
+
+
+Functions
++ Functions are a new code block similar to codewarps, but with names.
+→ Use the Function block to declare a function, and the Call Function block to call it.
+→ Name your functions with text items.
+→ You can set the icon of a function by putting an item in its parameter chest.
+→ Your existing code warps should work just fine.
+
++ Player Action: Expand Inventory
+→ Adds 3 rows to a GUI inventory, making it the size of a double chest.
+
+LagSlayer Update
+→ LagSlayer now checks more precise execution times!
+→ Plots will be halted for less time than they were before.
+↑ Entity limits have been raised to allow for more entities, projectiles, and explosions.
+
+Repeat
++ Added a new Repeat code block!
+→ You can repeat a certain number of times, forever, or while a condition is met.
+→ Requires a minimum wait of 5 ticks.
+
+Control
++ Added another new codeblock: Control!
+→ Control replaces the Break block
+→ Use its actions to break out of repeats, return from functions, and end lines.
+
++ Set Variable: Set Pitch/Yaw
+→ Reduced prices in the credits shop.
+→ Reduced CPU usage for Save and Load Inventory.
+≈ Fixed Iron Golem pet.
+≈ Start loop now works properly after being halted by LagSlayer.
+- You can no longer spawn fireworks without using code.

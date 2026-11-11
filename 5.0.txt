@@ -1,0 +1,28 @@
+Released: June 22, 2019
+
+→ It is finally here, the 5.0 variable update! This is one of the biggest updates in DiamondFire's history so we hope you're ready for it!
+→ Because this update is so big we have put the full patch notes in a forum thread, the following is a very brief summary.
+
+→ Patch notes thread: https://mcdiamondfire.enjin.com/forum/m/30117777/viewthread/32673143-50-patch-notes
+
+
+Variables
++ Added Item Variables.
++ Added List Variables.
++ Added Potion Variables.
++ Added Sound Variables.
++ Added Particle Variables.
++ Added Decimal Variables.
+
+Actions
++ Added lots of Set Variable actions for the new variable types.
++ Added world border Player Actions.
++ Added a few other fancy Player Actions.
++ Added a few extra block and entity related Game Actions.
+
+Other Improvements
++ Added a few build and dev mode commands.
++ Added /support question <question>.
+↑ Greatly improved DiamondFire's performance!
++ Added significant improvements to many actions.
+≈ Rewrote a lot of DiamondFire's internal workings, fixing a ton of bugs along the way.

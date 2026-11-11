@@ -1,0 +1,14 @@
+Released: April 12, 2025
+
+
+Code Changes
++ Added Player Start/Stop Glide Event
++ Added Player Chat Event (Mythic exclusive)
++ Added Game Value: Event Message (works with chat event)
++ Added command: /gchat to send messages in global (node) chat
+
+Fixes
+≈ Player reach distance has been adjusted
+≈ Fixed some issues with private <-> public node communication
+≈ Fixed private node plots (which are unlimited) counting against claim limits
+→ To learn more about the private nodes prototype, check /patch 7.1.1

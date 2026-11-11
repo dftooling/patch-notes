@@ -1,0 +1,23 @@
+Released: April 2, 2021
+
+
++ A complete recode of the CloneRegion game action!
+→ Two new tags have been added
+→ Significantly improved performance
+→ Fixed CloneRegion causing your plot to be lagslain almost instantly
+
++ Improved /plot clear and /plot unclaim!
+→ You can now select which parts of your plot you want to clear
+→ Signs on the edge of codespaces will now clear
+
++ Plot wait execution has been reworked internally
+→ This is an attempt to fix gadgets stopping correctly
+
+≈ Fixed being able to /msg while muted
+≈ Fixed Entity Action: SetEquipment not working with the chest slot
+≈ Fixed server lag spikes while loading plot menus
+≈ Fixed Is Variable: Location is Within not working correctly
+≈ Fixed /head duplicating your held item
+≈ Fixed server crash while using /sound with a full inventory
+
+- The text limit of 2000 characters will ACTUALLY be fully enforced in the next update

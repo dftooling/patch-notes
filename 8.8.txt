@@ -1,0 +1,27 @@
+Released: May 25, 2026
+
+
+Bucket Variables
++ Added Bucket Variables
+→ Bucket variables let you selectively save and load data in buckets for significantly larger overall storage limits
+→ Use them if you need to store more than the standard saved variable limits or need cross-plot variable access
+→ Learn more about them in /namespace help!
+
+Changes
+» Changed /usages to allow searching for sub-actions with /usages action <block> <action> <sub-action>
+» Changed Villager trading related actions to work with Wandering Traders (Hover)
+
+Fixes
+≈ Fixed /friend list ordering being arbitrary
+≈ Fixed Private Node icons in the Node Selector having an extra lore line
+≈ Fixed cosmetics sometimes not properly unequipping
+≈ Fixed passing empty variables to functions causing them to be stored
+≈ Fixed Potion Cloud Imbue Player Event not working
+≈ Fixed Player Action: Display Block Fracture level 1 not displaying
+≈ Fixed Player/Entity Event: Take Damage Event triggering twice when cancelled
+≈ Fixed Set Variable: Get Items by Minecraft Tag failing when the tag doesn't exist
+≈ Fixed If Entity: Has Potion Effect and If Entity: Is Riding not working as sub-actions
+
+Additional Changes - May 27, 2026
+≈ Fixed Set Variable: Get Loaded Buckets not working properly
+≈ Fixed Buckets not saving properly when empty

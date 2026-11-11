@@ -1,0 +1,50 @@
+Released: April 28, 2024
+
+
+200k Celebration
++ DiamondFire is celebrating 200k unique joins with these awesome gadget updates!
++ An exclusive variation of the Fire Aura cosmetic toggle is available for a limited time
++ A new Token Aura cosmetic toggle will be permanently available in the shop for 250 tokens
+» The Fire Aura cosmetic toggle has been made gravitating
+» The Impostor gadget is now more suspicious
+» The Disco Armor cosmetic toggle and the Overlord Party Aura are now even more colorful
+
+Preferences
++ Preferences allow you to personalise your DiamondFire experience to your specific tastes!
+→ To use preferences, click with the new item in your spawn hotbar, or use /preference <id> value> to set preferences remotely!
++ 4 New Development Preferences (Hover)
++ 9 New General Preferences (Hover)
+
+Noise Actions
++ This new suite of noise actions provides increased efficiency and versatility, making your randomly generated worlds that bit more interesting!
++ 4 New Advanced Noise Actions (Hover)
+- 3 Legacy Noise Actions (Hover)
+
+Entity Updates
++ 5 New Entity Events (Hover)
++ 13 New Entity Actions (Hover)
++ 5 New Game Values (Hover)
+» Entity Action: Set Display Rotation now accepts a vector
+» Player Action: Set Entity Hidden can now take multiple UUIDs at once
+≈ Fixed If Entity: Is Grounded not working with Repeats and Select Object
+≈ Fixed grammatical errors in several entity actions
+
+Code Changes
++ Renaming processes, functions and their calls will provide a message containing their old and new names
++ Game Value: Microseconds Since Startup
++ Game Value: Flight Speed
++ Game Value: Walk Speed
+≈ Fixed If Block: In Location replacing the input variables
+- Set Variable: Wrap Number (Old)
+
+Command Changes
++ /refactor rename <function|process> <target name> <new name> can be used to rename functions or processes and all of their calls
++ /values to obtain new value ingot
++ /players is now a new alias of /p data players
+
+Miscellaneous
++ Using spawn items will now play the attack animation
+» Profile messages will now be hidden if the player does not have permission to set one
+≈ Fixed the WorldEdit wand being enabled while in play mode
+≈ Fixed a grammatical error in the description of the Personal Raincloud cosmetic toggle
+≈ Fixed a spawn escape that utilised the Orbital Headgear cosmetic toggle

@@ -1,0 +1,18 @@
+Released: November 29, 2017
+
+↑ We are now running Minecraft 1.12.2!
+
++ Added the Select Object code block!
+→ Use it to target players, mobs, and entities more easily with your code.
+→ For example, you can select players by name, or all mobs standing on grass.
+
++ NOT arrow - right click on an if statement to invert its condition.
+→ Also works on Select Object!
+
++ If Entity: Is Mob
++ If Entity: Is Projectile
++ Player Event: Start and Stop Sprinting
+
+→ CP decay is now 1% instead of 2%.
+≈ Fixed a bug with Entity Action: Move To.
+≈ Fixed a bug with variables in Game Action: Spawn Mob.

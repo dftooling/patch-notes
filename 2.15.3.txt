@@ -1,0 +1,8 @@
+Released: June 14, 2016
+
+↑ Updated to Minecraft 1.10!
+
++ Added two new polar bear pets.
++ Added creator levels 51-56.
++ Created a new Big Slime pet.
++ When you vote for a plot, you now have a chance to win XP or boosters!

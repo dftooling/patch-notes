@@ -1,0 +1,9 @@
+Released: June 15, 2016
+
++ Entity Action: Set Age / Slime Size
++ Added special spawn eggs for the husk and stray mobs.
++ Introduced Entity Actions Toggle Silent and Toggle Gravity.
+
+→ Nerfed the Big Slime pet.
+→ Increased possible XP amount given on /vote.
+→ Updated the Grim Reaper pet.

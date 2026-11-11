@@ -1,0 +1,58 @@
+Released: September 24, 2025
+
+
+Friends
++ Added a Friend system!
++ You can add friends with /friend add <player>
++ Invite your friends to join you with /friend joinme <friend>
++ Check what your friends are doing with /friend list (or /f list for short)
++ Get notified when a friend joins DiamondFire
++ Added 3 new related preferences (Hover)
+» Expanded the Receive Private Messages preference to 3 options: Everyone, Friends, and No one
+
+Minecraft 1.21.8
+↑ DiamondFire is now updated to Minecraft 1.21.8!
++ You can now use all the new mobs, entities, sounds, particles, and attributes all the way from the Bundles of Bravery drop to the Chase the Skies drop!
++ Added 24 new events, actions, and values for the version's content (Hover)
+- Removed 4 Actions (hover)
++ Added 6 new /item sub-commands aswell as a particle command (Hover)
++ Added a new Happy Ghast pet allowing up to 3 other passengers, costing 50 tokens
+
+Code Block Copying
++ Individual code blocks and their contents can now be copied with middle-click!
+→ Middle-click on a sign copies the code block (not including chest contents)
+→ Shift + Middle-click on a sign copies the code block (including chest contents)
+→ Middle-click on a bracket copies the code block and its contents (not including chest contents)
+→ Shift + Middle-click on a bracket copies the code block and its contents (including chest contents)
+→ The result item can be placed in the code space like a normal code block
+
+Code Changes
++ Templates will now cause blocks to their right to shift to make space
+→ They can also be inserted by placing them on brackets and connectors
++ Sneak + left-click on a code block with brackets will create a copy of it before being removed
++ Added 6 new actions (Hover)
++ Game Value: Weather Type
++ Added messages for when you break or set a line starter
+→ These messages, as well as the messages for renaming a Call Function or Start Process can be disabled with the new preference "Code Block Change Messages"
++ Added support for two new MiniMessage tags: <pride> and <shadow>
+» Changed the Styled Text link filter to allow GitHub links
+» Changed Number value inputs to support hex (#) and duration (mm:ss, 1m30s, etc.) formats
+» Reworked and reordered player event categories
+» The "suggest_command" click event now allows any non-command input
+» Changed the icon of Game Action: Spawn Evoker Fangs to a Silverfish Spawn Egg
+≈ Fixed numerous bugs (Hover)
+
+Other Changes
++ /joinplayer <player> to directly join a player's plot
++ Added /plot icon <material> which sets your plot icon to the specified material instead of your held item
++ Freeze ray now turns foxes into their snow variant
+» Crewmate toggle colors have been expanded to all 16 dyes and match the Happy Ghast pet harness colors
+» Changed /dev and /build to accept an optional plot ID or handle
+» Changed the style of a message redirecting you to the store
+» The chat filter has been updated
+» /plot commands were reworked (hover)
+
+Additional Changes - September 24, 2025
+≈ Fixed /ptp -d not letting you teleport into the codespace
+→ This fixes all clickable teleport messages like debug and Lagslayer
+≈ Fixed locations swapping pitch and yaw when used

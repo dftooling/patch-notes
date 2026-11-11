@@ -1,0 +1,9 @@
+Released: March 29, 2016
+
++ Player and Entity actions: Enable/Disable Projectile Collisions
++ Entity Actions: Enable/Disable AI
++ Added a bunch of new sounds!
++ Player Action: Player Particle now lets you specify the amount of particles.
++ Game Action: Spawn Mob now allows for specifying an offhand item.
+
+≈ Tipped and spectral arrows now work properly with projectile actions.

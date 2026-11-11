@@ -1,0 +1,25 @@
+Released: July 12, 2023
+
+
+Minecraft 1.20
+↑ DiamondFire is now updated to Minecraft 1.20!
+→ You can now use new blocks, sounds, camels & sniffers and more
++ Set Variable: Set Armor Trim
++ Game Action: Set Item in Brushable Block
+→ Used to set the item buried in a suspicious sand/gravel
++ Entity Action: Set Sniffer State
++ "Hide Armor Trim" tag in Set Variable: Set Item Visibility Flags
++ Camel Pet, with an Overlord-exclusive feature to ride with your friend!
+
+Miscellaneous
++ Orbital Headgear Cosmetic, given free to April Fools 2023 quest completionists!
++ Player Action: Set Spectator Collision
++ Game Value: Standing Block Location
+» If Player: Is Standing On will now accurately check the player's supporting block
+» Typing /chat will now show the chat mode you are currently in
+≈ Fixed a bug where players could not see chat messages in rare cases
+≈ Parameters of Set Variable: Wrap Number have been tweaked to wrap the number correctly
+≈ Fixed number wrapping discrepancies in some code actions and commands
+≈ Fixed Entity Event: Block Fall Event not working correctly
+≈ Added an extra internal failsafe to prevent player collision bugs
+≈ Decoration entities (Item Frames, Paintings) will no longer randomly disappear

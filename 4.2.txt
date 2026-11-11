@@ -1,0 +1,30 @@
+Released: May 20, 2018
+
++ Added new particle effect shape actions!
++ Code block lores have been redesigned.
+→ Thanks to designers homchom, SamMan_, CreeperChill, K_Sasha, Majik, and NumeroPhobia
++ The reference book has been redesigned thanks to K_Sasha!
+
+↑ /mode now has shortcuts: /play, /build, and /dev.
++ Added /sll for setting lore lines.
+↑ /plot kick * and /plot kick @a will now kick all players from a plot.
++ If Game: Container Has All Items
++ If Player: Command Argument Equals
+
+↑ Game actions are now categorized similarly to player actions.
+↑ LagSlayer's fast looping now plays a particle at the affected area.
++ Added /support help to show available support commands.
+↑ If Game: Container Has Item and If Player: Item Equals now support multiple items.
+↑ Right clicking the glitch stick now removes entities within a 2 block radius.
+- Select Object: Selection
+
+≈ Game Value: Target Block Location is now properly centered.
+≈ Help lore is now removed from variable items when they are set.
+≈ Player Action: Send Message now properly converts locations to text.
+≈ It is no longer to fill end portals with eyes of ender.
+≈ Unclaiming and clearing plots now properly resets spawn points.
+≈ Players can no longer stay on unclaimed plots.
+≈ Functions can no longer be placed right before brackets.
+≈ Fixed an issue with fall damage sometimes being uncancelled.
+≈ Misaligned brackets can no longer destroy code on other plots.
+≈ Fixed an issue where glitched mobs and projectiles would not despawn.

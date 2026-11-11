@@ -1,0 +1,4 @@
+Released: April 16, 2016
+
+→ Player Action: Allow Placing/Breaking Blocks now allows for specifying which blocks the player can place or break.
+→ Plot Sword now tells you if the requested plot is on another node.

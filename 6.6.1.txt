@@ -1,0 +1,18 @@
+Released: June 29, 2024
+
+→ Ranks have received some major buffs!
+
+WorldEdit Changes
+» Increased Noble WorldEdit limit from 30,000 to 500,000.
+» Increased Emperor WorldEdit limit from 30,000 to 1,000,000.
+» Increased Mythic WorldEdit limit from 300,000 to 3,000,000
+» Increased Overlord WorldEdit limit from 1,000,000 to 5,000,000.
+- Removed most block type restrictions on WorldEdit operations.
+
+Plot Changes
+» Mythics can now claim 2 massive plots (increased from 1).
+» Overlords can now claim 3 massive plots (increased from 2).
+
+Miscellaneous
+≈ Fixed preferences being broken for certain players.
+≈ Fixed entities spawning in unloaded chunks crashing the server.

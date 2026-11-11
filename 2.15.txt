@@ -1,0 +1,6 @@
+Released: May 17, 2016
+
++ Added Game Values! These are a new variable type used to access values such as health and plot player count.
++ Added XP boosters - once activated, every player's XP will get more XP than normal for one hour.
+
+→ Warning: Game values are highly experimental, and have the chance to break games, so proceed with caution.

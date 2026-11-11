@@ -1,0 +1,34 @@
+Released: June 1, 2025
+
+
+Pride Month
++ DiamondFire is celebrating Pride Month with some new gadgets, toggles, and much more!
+→ Get the Pride Month 2025 package in the DiamondFire shop (Shop → Token Shop → Cosmetics) to help us make a donation to The Trevor Project charity!
++ A selection of 8 prideful flow armor cosmetics are now available as part of the Pride Month 2025 package
++ A selection of 8 prideful pride blaster gadgets are now available as part of the Pride Month 2025 package
++ Three new shops have opened for June, Gaystop, 5 Gays, and the 100% real legal MATTRESSSTORE
+
+Code Tips
++ Added a new feature: "Code Tips"
+→ Code Tips will show above your hotbar showing helpful information about the block you are looking at, they are enabled by default and can be disabled using the new preference.
+
+Code Changes
++ Added Player Action: Open Sign
++ Added If Player: Can Fly
++ Added If Variable: List Size Equals
++ Added Game Value "Ticks Since Startup"
++ Added a preference: "Sneak Punch to Send Item"
++ Added ability to type coordinates directly in chat while holding a Location value
+» LagSlayer and Warning messages can now be clicked to teleport to the block
+
+Other Changes
+» /ignorelist now appears as a book menu
+» /item commands now work in play mode
+» Shoot bow events now support the "Event Item" Game Value
+
+Fixes
+≈ Fixed %index on a location returning world coordinates
+≈ Fixed Game Menu search working outside spawn
+≈ Fixed ParticleSphere not supporting a decimal radius
+≈ Fixed Support queue join messages being improperly formatted
+≈ Fixed an issue where /vote could cause lag

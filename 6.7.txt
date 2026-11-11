@@ -1,0 +1,52 @@
+Released: September 27, 2024
+
+
+Code Changes
++ Added Player Action: Get Item Cooldown
++ Added Game Action: Set Biome
++ Added Game Value: Entity Pose
++ Added Fade Dust Particle, which transitions between two colors
++ The pages in the Function and Process menus now scroll
++ %index now works on locations and vectors
+» The Cancel Scythe is now available from the Code Blocks item
+» Set Var: Remove List Value can now match just the first or last elements
+» Player Action: Set Inventory Menu Name can now display a centered name
+» Invalid Parameter warnings are now more descriptive when possible
+» Functions and Processes with a custom icon name now also show the original name
+≈ /gamevalue no longer throws an error when you give it a target
+≈ Fixed If Player: Inventory Type Open not including Smithing Tables
+≈ Fixed Entity Event: Explode not having a valid default target
+≈ Fixed a problem with If Game: Location Is In Block's clamping
+≈ Fixed an issue with invalid characters on sound keys
+
+Command Changes
++ Added /codeteleport (/ctp), which allows you to search and teleport to any line starter
++ /p tp now supports coordinates as an input in addition to players
++ Added /smithingtable, which opens a Smithing Table
++ Added /i trim, which allows you to quickly set an armor trim on an item
+» /back now works when teleporting to codelines
+» /i tag list now sorts the displayed item tags
+≈ Fixed "-" being a valid stack size on some value commands
+≈ Fixed /loc not having autocomplete options
+≈ Fixed some inconsistencies with /i lore's shortcuts
+
+Preparing for 1.21
+→ In 1.21, some actions may not work the same way they do now
++ Added a code scanner for migration
+→ This will alert you to any changes that need to be made before 1.21
++ Added /migration, which will help with the migration scanner
++ Added Player/Entity Action: Set Combat Attribute
++ Added Player/Entity Action: Set Falling Attribute
++ Added Player/Entity Action: Set Health Attribute
++ Added Player/Entity Action: Set Knockback Attribute
++ Added Player/Entity Action: Set Movement Attribute
++ Added Player/Entity Action: Set Misc Attribute
++ Added Player Action: Set Mining Attribute
++ Added Player Action: Set Reach Attribute
+→ Not all of these will work right away, but they will once 1.21 rolls around.
+
+Miscellaneous Changes
+- Plots will no longer automatically clear after very long periods of inactivity
+» The link filter has been updated slightly (HOVER)
+≈ Fixed a bug that would fill a plot's mob cap with irremovable entities
+≈ Fixed various small typos

@@ -1,0 +1,13 @@
+Released: May 13, 2017
+
++ Code block GUIs have been redesigned!
++ Set Variable now supports operations such as addition and multiplication.
++ Player Action: Send Dialogue
++ Player Action: Randomized Teleport
++ If Variable: Is Within Range
++ If Variable: Text Equals
++ If Variable: Text Contains
++ Game Value: Command
+
+→ Gadgets now use ammo! You can get ammo by voting on plots.
+≈ Saved inventories have been fixed, but at the cost of resetting all inventory data.

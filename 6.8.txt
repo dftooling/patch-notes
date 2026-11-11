@@ -1,0 +1,26 @@
+Released: October 21, 2024
+
+
+Prize Ticket Rework
+» Prize Tickets have been renamed to Tickets
+» The Ticket Shop now reflects the online store prices
+→ This means 1 Ticket is now $0.01 USD
++ Overlord Rank Upgrade is now available in the Ticket Shop
++ Mega Plots are now available in the Ticket Shop
+- Midas Touch and Spinning Enderman have been removed from the Ticket Shop
+
+Code Changes
++ Player Event: Left Click Player
++ Player Event: Left Click Entity
++ If Variable: List Is Empty
+≈ Fixed some actions being able to affect other plots
+
+Command Changes
++ 'mat' is now an alias for 'material' in /particle
++ 'var' is now an alias for 'variation' in /particle
+≈ Fixed /lock being able to lock containers on adjacent plots
+≈ Fixed /ctp throwing an error when there are empty events on a plot
+
+Miscellaneous
+≈ The featured plot queue will now pick a plot from an approved pool
+→ Submit your plots to be featured on our Discord server (/discord)

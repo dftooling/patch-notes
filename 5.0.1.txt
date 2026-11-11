@@ -1,0 +1,15 @@
+Released: June 23, 2019
+
+→ This update is mainly a bug fixing update.
+
+≈ Fixed nested Else statements.
+≈ Fixed Control blocks not affecting Repeats in other functions.
+≈ Fixed Control blocks not working for nested Repeats.
+≈ Fixed default targets incorrectly targeting entities.
+≈ Fixed the node selector item lore.
+≈ Fixed /plot varpurge incorrectly purging variables if a name filter was given.
+
+→ Loops now have a minimum delay of 5 ticks instead of 10.
+↑ Repeats can now repeat for 10 iterations with no wait.
+↑ The code reader was even further optimized.
++ Using /rename with no arguments will now clear the item's name.

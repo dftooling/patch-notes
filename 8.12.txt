@@ -1,0 +1,32 @@
+Released: August 3, 2026
+
+
+Code Changes
++ Added Player Start/Stop Spectating Player/Entity Events
++ Added Game Value: Start Spectate Event Cause
++ Added Player/Entity Air Change Events
++ Added Game Action: Set Event Air Change
++ Added Game Value: Event Air Change
++ Added Entity Action: Set Arrow Critical
++ Added If Entity: Is Critical
++ Added text code for accessing bucket variables: %bvar([namespace], <bucket>, <variable>)
++ Added a tag to Player Action: Close Inventory to prevent closing a player's own inventory
++ Added a header custom APIs may include in web responses to get lower rate limits
++ Added Game Action: Prune World for World Plots
+» Changed the rank requirement of Player Action: Set Chat Style to Mythic
+» Changed descriptions of some actions to explain special behaviors
+≈ Fixed existing instances of Player Action: Set Reduced Debug Info Enabled misbehaving
+≈ Fixed retrieved variables from non-existent variable buckets not being set correctly
+≈ Fixed some sounds appearing twice in the sound menu
+≈ Fixed old 'Leash Knot' sounds not working
+≈ Fixed the 'Big Dripleaf Place' sound being named 'Big Dripleaf Break'
+≈ Fixed concurrency issues with suspending actions
+
+Other Changes
+» Updated Server Links and tips to reflect removal of Forums
+≈ Fixed minimap mod join prevention not showing a correct warning message
+
+Additional Changes - August 6, 2026
+≈ Fixed Player Action: Display Equipment Change treating missing items as air
+≈ Fixed My Plots menu not being paginated
+≈ Fixed Clone to Plot menu missing cloning settings

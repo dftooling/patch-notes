@@ -1,0 +1,16 @@
+Released: July 14, 2023
+
+
+Changes & Fixes
+» Rank requirement of Player Action: Set Spectator Collision is now consistent with that of Player Action: Set to Spectator Mode
+≈ Added missing changes in the patch note for Patch 5.9
+≈ Fixed Set Variable: Set to HSB Color not working with saturation/brightness 100
+≈ Fixed Set Variable: Set to HSL Color not working with saturation/lightness 100
+≈ Fixed the bug where Player Action: Set Skin cleared the potion effects and experience points of the player
+≈ Fixed an internal error when using /plot <builder/dev> clear
+≈ Fixed the bug where players could not open any spawn menus while riding a pet
+≈ Fixed the wrong message shown when you right-click a camel with 2 players already riding
+≈ You can no longer use Cannon Gadget while riding a pet
+≈ Fixed the bug where the player was put into a broken state when you sneak or switch modes while using Cannon Gadget
+≈ Fixed the bug where players in plot modes could use gadget items
+≈ Signs will no longer cause server performance issues

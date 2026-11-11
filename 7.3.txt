@@ -1,0 +1,23 @@
+Released: May 18, 2025
+
+
+Code Changes
++ Added Player Change Sign Event
+→ Includes Game Values: Event Sign Text and Event Sign Side
+
+Fixes
+≈ Fixed offhand items such as shields being incorrectly cancelled in some cases
+≈ Fixed negative rounding with multiples
+≈ Fixed uppercase letters in plot product IDs causing purchases to fail
+≈ Fixed entity effect being impossible to color
+≈ Fixed /par opacity not showing
+≈ Fixed web request not setting error response codes correctly
+≈ Fixed /plot whitelist clear not working properly
+≈ Fixed various grammar and formatting issues in messages
+≈ Fixed stack size of signs in function menu being capped to 16 instead of 99
+≈ Fixed some actions whose return types were not in their descriptions
+≈ Updated /discord and fixed the events server invite link
+≈ Fixed a bug that could sometimes lead to ghost players
+≈ Fixed If Game: Block Equals block data argument not parsing correctly
+» Block location highlight is now a full block
+» Small improvements to the chat filter

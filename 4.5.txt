@@ -1,0 +1,43 @@
+Released: January 5, 2019
+
+
+New Inventory Menu & Item Functionality
++ Player Action: Set Inventory Menu Item
++ Player Action: Set Inventory Menu Name
++ Player Action: Add Inventory Menu Row
++ Player Action: Remove Inventory Row
++ If Player: Inventory Menu Slot Equals
++ Game Value: Clicked Slot
++ Game Value: Inventory Menu Name
+↑ Inventory menu actions now have their own category.
++ Game Action: Spawn Random Item
++ Player Action: Replace Items
++ Player Action: Set Item in Slot
++ Player Action: Clear Items
++ If Player: Has Item in Slot
+
+Other Additions
++ Game Action: Summon Lightning
++ Player Action: Play Lightning
++ Player Action: Set Compass Target
++ Player Action: Set Health
++ Game Value: Target Block Face
++ Game Value: Event Block Face
++ New shortcuts for staff chat commands: /sb and /mb.
++ Added pufferfish and turtle pets.
++ Shift + left clicking variable and text items now allows you to quickly edit their value.
+↑ Changed the particle menu and added missing particles.
+↑ Spawned primed TNT can now be selected and named.
+→ Timed announcements such as Discord links will no longer show to ranked players.
+
+≈ Unclaimed plots can no longer be searched for.
+≈ Plots with extremely large amounts of line starters will no longer break.
+≈ Code blocks will now save more frequently.
+
+Command Improvements
++ You can now use /number, /text, and /var to quickly get variable items.
+→ Example: /num [1-5] to get number items 1 through 5.
++ Added /editname (/en) for quick editing of item names.
++ Ranked players can now change the color of their codespaces.
+→ Example: /plot codespace light_blue
+↑ The help menu is now much cleaner (Thanks to CreeperChill for suggestions)

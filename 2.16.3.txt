@@ -1,0 +1,5 @@
+Released: July 22, 2016
+
+→ Optimized projectile actions.
+→ Various internal changes have been made to prepare for the level rework.
+≈ Mobs can no longer escape plots.

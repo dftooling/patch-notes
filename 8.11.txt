@@ -1,0 +1,40 @@
+Released: July 1, 2026
+
+
+Code Changes
++ Added /usages for Bucket Variables, Strings, Styled Texts, and Numbers
++ Added Player Events: Start/Stop Breaking Block
++ Added Set Variable: Join Styled Text
++ Added Set Variable: Segment List
++ Added If Variable: Item Tooltip Is Visible
++ Added 5 actions for Copper Golem (Hover)
++ Added Game Action: Set Difficulty
++ Added Game Action: Set Players Sleeping Percentage
++ Added Game Value: Upper Inventory Items
+» Renamed Game Value: Inventory Items to Full Inventory Items
+» Changed legacy actions to retain their description with how to upgrade
+→ This can be seen when hovering on the Reference Book with the action's chest open
+≈ Fixed certain symbols not working in If Game: Event Command Equals
+
+Other Changes
++ Added support for 26.2 clients
+» Changed /item tag set/remove to autocomplete existing item tags
+≈ Fixed the Strategy plot tag not being able to be applied
+≈ Fixed an exploit relating to click events
+≈ Fixed /sign without arguments not sending a usage message
+≈ Fixed Player Event: Dismount not working above world height
+- Removed the ability to purchase the 2026 pride cosmetics
+
+Additional Changes - July 2, 2026
+≈ Fixed pride cosmetics not being equippable
+≈ Fixed the 2026 pride badge not appearing on profiles
+≈ Fixed plot command click events not working properly
+≈ Fixed icon for Game Value: Upper Inventory Items
+≈ Fixed icon colors in Set Variable: Segment List
+≈ Fixed icon for If Entity: Is Oxidized
+
+Additional Changes - July 6, 2026
++ Added all missing sounds from 1.21.11
+» Changed how saved variables and certain values are stored internally
+→ More information regarding this will be provided once things are finalized
+≈ Fixed issue with var saving

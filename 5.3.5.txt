@@ -1,0 +1,8 @@
+Released: August 16, 2021
+
++ Creator Points Removal Test 
+→ We are testing the removal of the CP system
+→ Your current CP is frozen, you will not earn or lose any CP
+
+≈ Fixed sessions leaving players in chat none
+≈ Fixed crash that would occur after many plots were joined

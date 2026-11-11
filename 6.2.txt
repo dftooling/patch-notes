@@ -1,0 +1,11 @@
+Released: January 7, 2024
+
++ Player Action: Send to Plot
++ Game Value: Game Mode
++ If Player: Is In Game Mode
++ Custom head textures can now be used in plot icons
++ /plot tp (/ptp) to tp to others in dev/build mode
++ Shift+R-click line starters to copy them into code templates
+→ This allows template creation without breaking the code line
+» Styled text values are now allowed in String parameters
+» Plot and support help menus have been refreshed

@@ -1,0 +1,6 @@
+Released: October 7, 2024
+
++ Added Game Value: Raw Event Damage
+→ This can be used to recreate negative resistance after the 1.21 update
+≈ Fixed a problem with base player attributes being incorrect
+≈ Fixed a problem with the migration scanner not reporting certain potion effects

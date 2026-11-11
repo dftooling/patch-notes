@@ -1,0 +1,27 @@
+Released: February 6, 2023
+
+↑ DiamondFire is now updated to Minecraft 1.19.2!
++ Entity Action: Set Allay Dancing
+
+Sound Variants
++ Added "Variant" feature for Sound code values
+→ You can now select precisely which sound will be played in a sound effect with multiple sounds
+→ Sound variants can be viewed on middle-clicking on a sound item in the sound menu, or shift right-clicking while holding a sound code item
++ Set Variable: Set Sound Variant
++ Set Variable: Get Sound Variant
+
+Highlighting
+↑ Improved highlighting (glowing effect) for Location code items
+→ Location code item now highlights its location while you are holding the item
++ Added Bracket Finder
+→ Click codespace brackets (pistons) with Bracket Finder to highlight the other end of the bracket
+
+Miscellaneous
++ Set Variable: Get Item Lore Line
++ New gadget: "Evoker Trap"
+» Redesigned the messages shown in /discord and /verify commands
+≈ Leaving a plot no longer keeps the "hidden" state of the left player
+≈ Mobs set to be silent no longer plays the death sound
+≈ Fixed chest boats not spawning using Game Action: Spawn Vehicle
+≈ Fixed invalid parameters in Player Action: Set Name Color causing errors on join
+≈ Fixed incorrectly shown particles in Cannon Gadget

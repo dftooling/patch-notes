@@ -1,0 +1,18 @@
+Released: March 28, 2016
+
++ Custom commands for your plots! Use the Player Command Event and If Player: Command Equals actions. Commands are in the format @command.
++ New Inventory GUIs! Use Player Action: Show Inventory Menu with the new Player Event: Click Item.
+
++ New plot tags: Escapist, RPG, and Minigames!
++ New pets: Mini Clone and Herobrine!
++ Added a TON of new particle effects!
++ Added pet particle auras! Available to Mythic and higher.
++ Negative amplifiers on potion effects are now supported.
++ Player Action: Close Inventory Menu
++ Player and Entity Actions: Set Max Health
+
+→ You can now right click loops and code warps with number items to set them more easily.
+→ Zombie Soldier and Baby Zombie Archer pets now carry shields!
+→ Creator XP messages now show player names for joins/votes.
+
+- Due to 1.9 changes, using vanilla potions in code blocks will no longer work. Use the Potion Effect Item (under variables) instead.

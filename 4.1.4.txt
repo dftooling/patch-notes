@@ -1,0 +1,5 @@
+Released: April 23, 2018
+
+↑ CPU limits have been increased by 50%.
+↑ Plots can now temporarily exceed the CPU limit by up to 2x.
++ Added /lagslayer to track CPU usage.

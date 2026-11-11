@@ -1,0 +1,8 @@
+Released: August 17, 2022
+
+
+Fixes
+≈ WorldEdit brushes have been re-enabled.
+≈ Players are now properly removed from the support queue when they leave.
+≈ Removed autocomplete for a nonexistent support command.
+≈ Reference book has received some additional fixes.

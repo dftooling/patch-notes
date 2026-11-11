@@ -1,0 +1,40 @@
+Released: April 29, 2021
+
+
++ Lagslayer Additions
+→ Plot developers are now sent lagslayer alerts
+→ /lagslayer now shows a percentage
+
++ Badges
+→ Badges are shown on your /profile and can be earned for being a part of the community
+→ Each badge has its own icon, color and name
+→ Stay tuned for any upcoming badges that are released in the future
+
++ Added Player Action: Set Skin
++ Added Player Action: Set Entity is Hidden
++ Added Player Action: Display Pickup Animation
++ Added Game Action: Spawn Shulker Bullet
++ Added Entity Action: Set Shulker Bullet Target
++ Added Entity Action: Set Cat Resting
++ Added Entity Action: Set Fox Leaping
++ Added Entity Action: Set Is Marker
++ Added Entity Action: Set Arms Raised
++ Added Player Action: Set Spawn Point
++ Added /plot fixlight
++ Added a new /heads menu to view all the heads you could need on your plot!
++ Game values and particles have had their menu redone and can now be searched by typing in chat with them in your hand
+
+» Added back block tags to If Game: BlockEquals
+» You can now use custom skins in Entity & Player Action: PlayerDisguise
+
+≈ Fixed cooldowns not resetting on plot leave
+≈ Fixed area effect clouds effecting players outside other plots
+≈ Fixed plot clearing taking very long
+≈ Fixed incorrect lore on Set Variable: Bitwise
+≈ Fixed a bunch of inconsistencies and issues with /item commands
+≈ Fixed negatives not working in %math expressions
+≈ Fixed many exploits that allowed you to escape your plot
+≈ Fixed not being able to use underscores in plot names
+≈ Fixed Entity Action: Set Fishing Wait Time time not working correctly
+- Game Action: Spawn ArmorStand will no longer automatically apply invincibility. This is to avoid confusion with it not firing a damage event
+- The text limit of 2000 characters is now enforced

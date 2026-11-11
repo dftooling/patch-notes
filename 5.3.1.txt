@@ -1,0 +1,61 @@
+Released: March 23, 2021
+
+
++ Significant changes have been made to LagSlayer! You can read more about them here: (refer to the suggestions discord for now)
+→ Code execution should now be ~12% faster.
+
++ Ender Dragons can now be spawned
++ Added Entity Action: Set Dragon Phase
++ Added Entity Action: Set Pufferfish Size
++ Added Player Action: Display Particle Ray
++ Added the Paintball Gun gadget
++ Added /plot whitelist clear
++ Added Player Action: Set Status
+
+↑ Plot names now support special characters from /chars <1-4>. 2 symbols (or 6 for the Mythic rank) may be used
+↑ The maximum plot name length (including color codes) has been increased from 64 to 128
+
+» Block break/place related actions are now unranked
+» Improved multiple gadgets and their visual effects
+» Improved the /msg command
+» The reference book now shows the lore of the action when a chest is open
+» /item nbt now shows pretty colors and is formatted; you can also now copy values by clicking on them
+» Game Action: Spawn Armor Stand now correctly spawns invulnerable armor stands
+» Set Variable: Align Vector now respects vector length
+» Set Variable: Set Head Owner has been changed to Set Head Texture and now supports custom textures
+» The hit/end location of raycast actions now have the same rotation as the start location
+» Plot ads now suggest (not automatically run) /join. This means you can now confirm or cancel a plot ad after clicking it
+» The My Plots menu now sorts plots by Player count > Votes > Node > ID
+» You can now click on /locate messages again
+» Adjusted some gadget cooldowns
+» Right-clicking the Trending menu now sorts by vote count
+
+≈ Fixed the sound menu back arrow
+≈ Fixed a bug where left-clicking a tag item twice changed its value three times
+≈ Fixed some issues with Repeat: Repeat on Path
+≈ Fixed If Player: Has Permission not working with whitelists
+≈ Fixed Entity Action: Set Target not working with entities that already have targets
+≈ Fixed the optional parameter of Set Variable: Trim List
+≈ Fixed Set Variable: Get Item Attribute not working
+≈ Fixed Set Variable: Format Timestamp returning an incorrect year in some cases
+≈ Fixed particle values not working with If Variable: Equals
+≈ Fixed some Game Values having an incorrect rank restriction
+≈ Fixed some issues with token notch claiming on promoted plots
+≈ Fixed the My Plots GUI not displaying when having a large amount of plots
+≈ Fixed trying to leave play mode while being dead
+≈ Players will now be kicked from the plot when plot banned
+≈ Fixed the HD head filter not working correctly
+≈ Fixed the creative kill potion filter not working correctly
+≈ Fixed issues with token claiming on promoted plots
+≈ Fixed some issues with the support system
+≈ Fixed some issues with item/block interactions, for example shields
+≈ Fixed some inaccuracies with block drops
+≈ Fixed multiple ghost player issues
+≈ Fixed the /tip token gain count not being accurate
+≈ Fixed the outdated link in /support rules
+≈ Fixed area effect clouds not working with custom particle data
+≈ Fixed /whois not finding players while on certain nodes
+≈ Fixed several crash exploits
+
+- Marked Player Action: Randomized Teleport for removal. Use Set Variable: Set to Random Value Instead. Randomized Teleport will likely be removed in 5.4.
+- The text limit of 2000 characters will be fully enforced in the next update

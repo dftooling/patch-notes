@@ -1,0 +1,19 @@
+Released: July 15, 2019
+
++ Set Variable: Random Location
++ If Game: Event is Cancelled
++ /unsignbook
+
+» Plots now show whether they are whitelisted in menus.
+» Death events are now cancellable.
+» Rearranged the compact inventory menu.
+
+↑ Item variables now take up less memory! Plots can now save far more items than before.
+
+≈ Fixed a but where Control: Wait would not get the tag in its parameter chest.
+≈ Fixed Repeat: For Each repeating too many times.
+≈ Set Variable: Get Distance now works properly.
+≈ Fixed the optional parameters on location shifting actions.
+≈ Inventory click events should now work more smoothly.
+≈ NBT is now properly saved on item variables.
+≈ Fixed all teleport without rotation tags.

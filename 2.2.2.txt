@@ -1,0 +1,7 @@
+Released: September 12, 2016
+
+↑ Game Action: Set Block can now place up to 50,000 blocks per operation.
++ Plot clearing has been made much faster.
+
+≈ Fixed an issue where placing codeblocks could break things.
+≈ Fixed a bug where sessions were being accepted in reverse order.

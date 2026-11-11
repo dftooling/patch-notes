@@ -1,0 +1,11 @@
+Released: May 6, 2022
+
+
+Fixes
+≈ Entities are properly cleared on plot unclaim (fixes an issue where plots could not be unclaimed)
+≈ Fixed a few incorrect code names and descriptions
+≈ Fixed dismounting with Player Action: Ride Entity
+≈ Fixed fog distance not resetting after respawning
+≈ Added a couple missing changes to Patch 5.5 notes
+» /plot clone is temporarily disabled due to a bug in FAWE
+» Code blocks can now be placed on the edge of the code space

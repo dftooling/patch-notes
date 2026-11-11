@@ -1,0 +1,14 @@
+Released: August 14, 2016
+
++ New code block: Return (Break)!
++ If Player: Is Gliding
++ Player Action: Gamemode Adventure
++ Player Action: Gamemode Survival
++ /hideflags
+
+→ Players in the lobby are now in adventure mode by default.
+→ Music disc tags are now hidden for sound effect items.
+≈ Fixed shooter identification for projectiles launched with code.
+≈ Plots with very large amounts of code now load properly.
+≈ Code blocks on the edge of a plot now work as expected.
+- Boss bars no longer generate fog.

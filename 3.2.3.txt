@@ -1,0 +1,12 @@
+Released: August 21, 2017
+
++ There is now a one-time purchase discounted basic plot in the store.
++ Experts now have the ability to ban people from using the support queue.
+
+↑ /tip now gives 150% more credits.
+→ The snowball gadget has a new sound effect.
+≈ Fixed a bug with Expert session chat.
+≈ Fixed small issues with holograms.
+≈ Fixed a bug where players could get stuck using the Recall gadget.
+≈ Patched a dangerous infinite loop exploit.
+- Experts can no longer warn and teleport as they are moderation commands.

@@ -1,0 +1,14 @@
+Released: November 8, 2026
+
+
+Network-wide Player Data
++ Your ender chest is now shared across every node
+→ Ender chests from each node were moved into named shulker boxes in your ender chest
++ Added /playtime to view your total playtime across the network
+
+Other Changes
+» Midas Touch now uses polished sulfur blocks in its block selection
+≈ Fixed Set Color Environment Options and other environment actions showing incorrect info
+≈ Fixed /i editname missing tab completion
+≈ Fixed Select Objects by Raycast using too much memory with large selection limits
+≈ Fixed world plot issues when the build world was not loaded

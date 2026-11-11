@@ -1,0 +1,13 @@
+Released: October 10, 2016
+
++ /durability
++ If Player: Is Holding in Main Hand
++ If Player: Is Holding in Off Hand
++ If Player: Has All Items
++ Plot can now be whitelisted. (Requires Noble)
++ New Firework gadget!
++ New Comet of Destiny gadget for Mythics and above.
++ You can now specify fade durations for titles.
+
+≈ Fixed WorldEdit limits.
+≈ Fixed the plot favorites system.

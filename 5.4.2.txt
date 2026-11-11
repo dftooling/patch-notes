@@ -1,0 +1,19 @@
+Released: March 24, 2022
+
+
+Prize Ticket Rework
+→ Tickets no longer expire.
+→ Tickets earned from multiple events can now stack.
+→ Prices in the prize ticket shop have been adjusted accordingly.
+→ Plots start out discounted and increase in price as you purchase more.
+
+Other Features
++ New double-lined codespace style, accessible with /plot codespace add -d
++ Improved /colors command for color-picking
++ Motion variation support for Spell and Entity Effect particles
+» Impostor gadget cooldown increased from 5s -> 45s
+
+Fixes
+≈ Plot ad cooldown can no longer be bypassed by sending the command rapidly.
+≈ The token animation now displays the correct number of notches.
+≈ Player Action: Set Spawn Point can no longer use a location out of plot bounds.

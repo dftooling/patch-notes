@@ -1,0 +1,26 @@
+Released: April 17, 2017
+
+↑ We are now running Minecraft 1.11.2!
+
++ New entity events!
++ Player Event: Swap Hands
++ Player Event: Change Slot
++ Game Action: Spawn Primed TNT
++ Game Action: Change Sign
++ If Player: Slot Equals
++ Player Action: Kick
++ Player Action: Set Slot
++ Player Action: Set Item
++ Game Value: Current Held Slot
++ Game Value: New Slot
++ Game Value: Old Slot
+
++ You can now find what plot a player is on with /locate!
++ Messaging now works cross-node.
++ Holograms and boss bars have been reimplemented.
++ Filling and emptying actions now work with all containers.
+
+→ We have removed our dependency for holograms.
+→ The player action GUI has been reworked.
+→ Tons of internals have been reworked for better performance
+→ Report bugs with /bug on node beta.

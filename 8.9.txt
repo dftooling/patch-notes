@@ -1,0 +1,13 @@
+Released: June 1, 2026
+
+
+Pride Month
++ DiamondFire is celebrating Pride Month with new pets, badges, and more!
+→ Get the Pride Month 2026 Pride Croc pets in the DiamondFire shop (Shop → Token Shop → Pets) to help us make a donation to The Trevor Project charity!
+→ Each pride pet costs 20 Sparks to buy individually, or buy all of them for 100 Sparks!
++ After the mattress store was shut down for laundering gay rayguns, Queer Co. rebranded to a camping company! Their first resort, Camp Stowagay, is open for June 2026!
+
+Code Changes
+» Optimized coordinate game values
+» Optimized target codes on String values
+≈ Fixed actions that save buckets not setting the result variable when called on last player leave

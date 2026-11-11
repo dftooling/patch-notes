@@ -1,0 +1,7 @@
+Released: December 12, 2017
+
++ Nested variables! Using %var(variable name) at the beginning of a variable will pull its value.
++ Paintings and item frames can now be used in build mode.
+
+→ We are testing some LagSlayer changes for 4.0, let us know of any bugs.
+≈ Creator rankings now process name changes correctly.

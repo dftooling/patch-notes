@@ -1,0 +1,32 @@
+Released: May 2, 2026
+
+
+Villager Actions
++ Added Entity Action: Send Villager Head Shake Animation
++ Added Entity Action: Add Villager Trade
++ Added Entity Action: Remove Villager Trade
++ Added Entity Action: Clear Villager Trades
++ Added Entity Action: Set Villager Trade
++ Added Entity Action: Set Villager Trade Uses
++ Added Entity Action: Restock Villager Trades
++ Added Player Action: Open Villager Trade Menu
++ Added Player Trade Event
++ Added Trade Ingredients Game Value
++ Added Trade Result Game Value
++ Added Villager Trades Game Value
++ Added a tag to Entity Action: Set Villager Profession to retain trades
+
+Changes
++ Added a /sign command to edit signs in build/dev mode
+» Player Action: Kick no longer requires the Noble rank
+» Clarified the Display Rotation tag in the Set Display Rotation Entity Actions
+» Plots cannot be joined while frozen by LagSlayer
+
+Fixes
+≈ Fixed some Game Rules not properly resetting for world plots
+≈ Fixed plot resource packs not properly unloading when leaving a plot
+≈ Fixed the friend list not properly displaying online friends
+≈ Fixed LagSlayer freezes lasting longer than intended when rejoining a plot
+
+Additional Changes - May 3, 2026
+≈ Fixed %default / %uuid target codes not working on leave event

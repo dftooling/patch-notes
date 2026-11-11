@@ -1,0 +1,15 @@
+Released: April 23, 2016
+
++ Open a crafting table with /craft!
++ /plot clear has a new confirmation message.
++ You can now use /plot codespace -l for a lined codespace.
+
+→ Reworked gadget cooldowns.
+→ Reduced the particle count for aura gadgets.
+→ Loops have been tweaked to be more consistent.
+
+≈ Launch projectile velocities under 10 now work as expected.
+≈ XP bottles now work properly with projectile actions.
+≈ %random now handles negative numbers properly.
+≈ Boats and minecarts are properly limited to prevent entity spam.
+≈ Fixed a small bug with plot inventories.

@@ -1,0 +1,55 @@
+Released: December 17, 2024
+
+
+Plot Addons
+→ Plot Addons are purchased with tickets and apply to individual plots.
+→ Addons you have purchased can be moved freely between your plots.
++ /plot addons
++ Plot Addon: Description
+→ Up to 150 characters of custom text on your plot icon
++ Plot Addon: Handles
+→ Handles are used in /join (e.g. /join site03)
++ Plot Addon: Resource Pack Size
+→ Upgrade the maximum resource pack size from 10MiB to 40MiB
+
+→ Addons are purchased per-plot and can be moved freely between plots
+
+Sparks
+→ Sparks are a new premium currency, purchasable from the DiamondFire store
+→ Sparks can be converted into tickets
+→ Sparks are used in Plot Sponsoring and Plot Products
+
+Plot Sponsorship
++ /sponsor
+→ Support creators by sponsoring their plots
+→ Each sponsorship costs 10 Sparks ($0.50 US) and gifts 50 tickets to the plot creator(s)
+→ Creators can split the tickets with up to 50 collaborators
+→ The top 3 sponsors for each plot are displayed on the plot icon
+→ Sponsors will earn +5% tokens on a plot for each time they’ve sponsored, up to +100%
+→ Exclusive chat tags are available for top sponsors (at 50, 100, and 200 sponsorships)
+→ All sponsors will receive a /profile badge, which upgrades the more sponsorships you give
++ /plot collaborator
+→ Add collaborators to your plot to share tickets earned from sponsorships
+
+Plot Products
+→ Plot creators can sell products using Sparks
+→ All products require staff approval
+→ Join the #sparks-interest channel in /discord to find out more and get approved.
+
+Set Action Command
++ /action
+→ Look at a code block and search through all available actions
+→ This command works with /action /set /a and /.
+→ Includes auto-complete and supports custom functions and processes in addition to all standard code blocks
+
+Other Changes
++ Wind charge projectile
++ Set Variable: Clamp Location
++ Set Variable: Get Container Contents works with more blocks
+→ Lecterns, Chiseled Bookshelves, Decorated Pots and Jukeboxes
++ Bit Precision Tag to Set Variable: Bitwise
+≈ Fixed SignChange, SkullChange and GatewayAnimation not working
+≈ Fixed Cancel Event not working when an event was spammed
+≈ Fixed Has Room For Items, Get Item Material and Get Item Max Amount
+≈ Fixed Wrap Number rounding to integers
++ Get the FREE Firecracker gadget in the token shop to celebrate DiamondFire's 10-year anniversary.

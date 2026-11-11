@@ -1,0 +1,13 @@
+Released: September 7, 2020
+
+
++ The server is now running on 1.16.2! 1.15 players will no longer be able to join.
++ You can now use 1.16 blocks and items! To use the new 1.16 hex colors, use the format '&x&#&#&#&#&#&#', and replace the #'s with hex digits.
+
+↑ Clarified the Process block description. Processes should never be used as a replacement to functions for several reasons that will not be explained here.
+↑ Significantly improved the link filter to give much fewer false positives, and much fewer false negatives.
+↑ Brought back the shift + left click particle cluster preview.
+≈ Fixed items getting inserted into code chests from too far away when using the left-click shortcut.
+≈ Fixed an issue with adding list values to the end of a list using Set Variable: Insert Value at Index.
+≈ Fixed the last spawned mob and last spawned entity targets not working on certain events.
+≈ Fixed lightning damage not being cancellable.

@@ -1,0 +1,50 @@
+Released: February 13, 2024
+
+↑ The server has been updated to Minecraft 1.20.4
+
+1.20.4 Changes
++ Wet Sponge and Sponge sounds are now accessible
++ Player Action: Set Tick Rate
++ Player Action: Set Scoreboard Default Number Format
++ Player Action: Set Scoreboard Line Number Format
++ Entity Action: Set Display Teleport Duration
+
+Code Changes
++ Player Event: Teleport
++ Player Event: Move
++ Player Action: Clear Display Blocks
++ Player Action: Display Bell Ring
++ Entity Action: Set Vex Charging
++ Set Variable: Clear Enchants
++ If Variable: Item Has Enchant
++ If Player: Main Hand Equals
++ Game Value: Attack Cooldown
++ Game Value: Attack Cooldown Ticks
+» Several missing attributes have been added to Set Variable: Add Item Attributes
+≈ Rooted Dirt Place now has the correct name
+≈ Fixed Player Action: Set Absorption action not working
+→ Hiding health by setting absorption to extremely high values will no longer work, as Mojang has capped absorption at 2048
+
+Command Changes
++ /plot data <entity/vars/tasks/players/plot> to view various stats about a plot
++ /gamevalue <ID> to obtain a game value item of the specified ID
++ /back to return to the location you were at at prior to a teleport
++ /plot codespace add <count> to add multiple codespace layers simultaneously
++ /plot codespace remove <count> to remove multiple codespace layers simultaneously
++ /not to obtain a new NOT Arrow
++ /cancel to obtain a CANCEL Wand
+→ The CANCEL Wand makes events automatically cancelled during lagslayer
++ /light <level> to obtain a light block of a specific brightness
++ /ignorelist now opens a GUI containing all ignored players
+» The /time and /weather commands can now be used at spawn
+
+Miscellaneous
++ Hovering over the patch notes will now show who made a change
++ The wake up animation has been added to most teleports
+» There is now a live queue timer on the actionbar while in the support queue
+» Support related messages have been restyled
+» The NOT Arrow's material has been changed to a spectral arrow
+» "#" will no longer be counted as special character in plot names
+≈ Fixed the potion effect menu displaying unordered
+≈ Fixed the expression "<white><yellow>" triggering the chat filter
+≈ Fixed empty resource packs loading when switching nodes after having a resource pack applied

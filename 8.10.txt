@@ -1,0 +1,8 @@
+Released: June 15, 2026
+
+
+Changes
++ Added Game Value: Main Hand
++ Added If Game: Game Has Entities with Name
++ Added If Game: Game Has Entities with UUID
+≈ Fixed /plot bucket being available to plot builders

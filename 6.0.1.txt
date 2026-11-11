@@ -1,0 +1,10 @@
+Released: September 6, 2023
+
++ Set Variable: Set to Styled Text
+→ Multiple values will be merged into one styled text value
+» You can now use legacy color codes in String code values again
+» Set Variable: Translate Legacy Colors is added back
+≈ Fixed Entity Action: Set Text Display Text not working with legacy strings
+≈ Fixed Entity Action(s): Set Display Entity Rotation not working correctly
+≈ Fixed parameters being parsed incorrectly in Player Action: Show Title Text
+≈ Fixed a broken code action in Numerical Actions category of Set Variable menu

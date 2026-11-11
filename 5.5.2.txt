@@ -1,0 +1,21 @@
+Released: May 24, 2022
+
+
+Code Changes
+→ Dictionaries are now ordered, meaning the order you insert entries in will be preserved.
++ Set Variable: Sort Dictionary
++ Player Event: Vehicle Jump
++ Game Value: Steer Sideways Movement
++ Game Value: Steer Forward Movement
++ Added azalea trees to Game Action: Generate Tree
+→ Player Action: Send Advancement now works with hex colors and supports item metadata (enchantment glow, model data, etc.)
+→ Player Action: Display Hologram can now show up to 2048 characters (up from 256).
+
+Miscellaneous
++ Codespaces can now use tinted glass.
++ The templates you create are now temporarily stored! You can view them with /templatehistory.
+
+Fixes
+≈ Entities no longer get "stuck" on a plot, fixing mob caps.
+≈ Plot commands can once again be executed from books.
+≈ /plot clone is now back in working order. Thanks to Owen1212055 for working on an upstream fix!

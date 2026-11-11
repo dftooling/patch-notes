@@ -1,0 +1,14 @@
+Released: May 17, 2023
+
+
+New Features
++ Player Event: Player Tame Mob Event
++ Entity Event: Entity Explode Event
++ Sound source tag in Player Action: Play Sound Sequence
+
+Changes & Fixes
+» You can no longer use disguise actions with Display Entities & Interaction Entities
+» Hitting an Ender Crystal now makes it explode it properly
+→ Cancel entity damage event to prevent the crystal from disappearing and exploding after hitting
+≈ Fixed Set Variable: Get Item Potion Effects not working correctly
+≈ Fixed Seeking Pig Launcher gadget exploding immediately after launching

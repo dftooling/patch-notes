@@ -1,0 +1,33 @@
+Released: August 18, 2024
+
+
+Code Changes
++ Added If Game: Is Chunk Loaded
++ Added Set Variable: Get Block Drop Items
++ Added Set Variable: Add Item Lore
++ Added Game Value: Plot Player Names
++ Added Game Value: Plot Player UUIDs
++ Added Game Value: Event Hit Type
++ Added Player Action: Display Equipment Change
+» Game Value: Entity Item now works with Falling Blocks
+» Repeat On Grid description now specifies what order it repeats in
+≈ Fixed selection targets (e.g %default) from resolving incorrectly in function parameters
+≈ Fixed instances where function parameters would use parameters from previous function calls
+≈ Trim Styled Text Content now properly handles the optional end character position argument
+≈ MiniMessage parsing failing when reading incomplete legacy tags (example: <%a)
+≈ Players who rejoin the plot will no longer continue to run old repeats from their previous session
+→ This was also known as 'Loop Duping'
+≈ Players can no longer fire multiple join events during the same play session
+≈ Fixed Game Action: Set Lectern Book not displaying the right page
+≈ Fixed Variable Tags not working on tags with Player Heads
+
+Miscellaneous
++ Added /plot center to teleport to the center of your plot
+» /ignore list can no longer be used in /play mode
+≈ Fixed /p setspawn and /vec get autocompletion
+≈ Fixed offhand items not properly cancelling in dev mode
+≈ Fixed possible exploits related to interactions not firing events
+≈ Fixed glider gadget removing armor in plots
+≈ Fixed chat preference taking over during support sessions
+≈ Server join messages sending to players not in global chat
+- Removed credits from patch notes

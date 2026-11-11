@@ -1,0 +1,12 @@
+Released: January 25, 2018
+
+≈ Lag has been reduced on plots with large amounts of code.
+≈ Fixed a glitch where loading inventories could go off into the lobby.
+≈ Fixed glitched locations and entity events occurring when clearing plots.
+≈ If Player: Is Looking At now works properly on signs.
+≈ Cleaned up some issues with placing blocks at the edge of plots.
+≈ Fixed the %var(n) syntax.
+≈ Prevented stealing from chests in neighboring plots.
+≈ Items dropped by players now register as plot entities.
+→ Reward DiamondFire Credits now requires less CPU usage.
+→ Functions can now be placed in the same line as other events and functions.

@@ -1,0 +1,8 @@
+Released: May 14, 2024
+
+» Reworked the internals of the preferences system
+→ The default chat preference has been reset to 'No Change'
+≈ Fixed support queue timer showing to every player
+≈ Unlisted plots no longer show in the trending menus
+≈ Removed the newline above the boost message
+≈ Fixed numerous server crashes

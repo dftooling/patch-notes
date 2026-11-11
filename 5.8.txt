@@ -1,0 +1,35 @@
+Released: April 24, 2023
+
+
+Minecraft 1.19.4
+↑ DiamondFire is now updated to Minecraft 1.19.4!
+→ Features from 1.20 Experimental Data Pack are disabled on this server
+
+Display Entities
+→ DiamondFire now supports 3 display entities added in Minecraft 1.19.4!
++ Game Action: Spawn Text Display
++ Game Action: Spawn Item Display
++ Game Action: Spawn Block Display
++ Over 20 Entity Actions to manipulate display entities!
++ Game Action: Spawn Interaction Entity
++ Entity Action: Set Interaction Size
++ Entity Action: Set Interaction Responsive
+
+Free Spawn Eggs
+» Because of new 1.19.3 spawn eggs, all special spawn eggs are now free for everyone
+» Some boss mobs now have their own mob limits in plots. Any plot can spawn up to 30 Ender Dragons and 10 Withers
+
+Plot History
++ Added Plot History in Game Menu
+→ You can view up to 5 plots you have recently joined
+
+Miscellaneous
+» Player Action: Send Animation is now split into Send Hurt Animation and Send Wake Up Animation
+→ There is now a damage source location parameter for Hurt animation
+» The character limit on text values has been raised from 2,500 to 10,000
+» Plot entities are now hidden from players outside the plot
+→ Display and Interaction entities in the play space are automatically hidden while in build/dev mode
+≈ Fixed items in off-hand (such as shields) not working properly
+≈ Removed a wrong parenthesis in the description of Player Action: Set Player Time
+≈ Player Action: Set Entity Hidden can no longer reveal players vanished using moderation commands
+≈ Player Action: Set Entity Hidden no longer causes the TAB player list to flicker when showing/hiding players

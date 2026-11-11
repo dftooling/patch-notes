@@ -1,0 +1,6 @@
+Released: September 20, 2016
+
+↑ We now support all 462 sounds currently in Minecraft.
++ Sounds are now categorized for ease of access.
++ You can now right click sounds from within the menu to preview them.
+→ Huge thanks to kNoAPP for spending the time to add all missing sounds!

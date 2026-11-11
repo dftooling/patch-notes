@@ -1,0 +1,12 @@
+Released: August 30, 2016
+
++ The support system has been reworked!
++ There are now lots of new notifications for support staff.
++ Support now have a cross node messaging system.
++ Session duration is now logged in support stats.
++ Support queue is nowglobal.
++ Support ratings have been removed.
+
+≈ Remove Item now works properly with items held in the off hand.
+≈ Players no longer get stuck in dev mode.
+≈ Entities are now properly disposed of when the server crashes.

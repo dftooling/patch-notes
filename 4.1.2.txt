@@ -1,0 +1,24 @@
+Released: March 3, 2018
+
++ If Player: Is Swimming
++ Player and Entity Action: Teleport Sequence
++ /plot banlist
++ /plot varpurge [text] - clears variables matching the provided name.
+↑ You can now use //setblocklight.
++ New node monitoring system to detect when nodes go offline.
+↑ The function menu can now show more than 45 functions
+↑ Help commands have been upgraded.
+↑ /vote now gives ammo 50% of the time.
+↑ Mythic's WorldEdit limit is now 25,000 blocks!
+
+→ CP decay is now 2%, but does not apply to the first 5,000 CP.
+→ It now takes much longer to drop below Quartz.
+→ Plot bans no longer message targets globally
+→ Whitelisted plots are now completely hidden from plot menus.
+≈ You can no longer bump or advertise whitelisted plots.
+≈ Fixed a bug that caused code blocks to disappear.
+≈ Fixed a bug where some plot names could not be searched.
+≈ Save Inventory should now be less laggy
+≈ Fixed a bug with /mode after player death.
+≈ Gravity entity actions no longer affect players.
+- Removed some really old tooltips on old gadgets.

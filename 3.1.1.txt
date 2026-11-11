@@ -1,0 +1,4 @@
+Released: May 20, 2017
+
+≈ Fixed an internal error with RngTeleport.
+≈ %victim and %damager now return the correct target names.

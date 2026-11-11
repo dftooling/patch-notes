@@ -1,0 +1,26 @@
+Released: September 27, 2025
+
+
+Changes
+» You are now only allowed to have up to 20 unapproved plot products at a time per plot
+» Changed block highlights to be slightly smaller so you can break the highlighted block
+» Changed Player Combust Event to also trigger when using Player Action: Set Fire Ticks
+→ This also introduces a new "code" Combust Event Cause
+
+Fixes
+≈ Fixed items being retained from modes when a node crashes.
+≈ Fixed the node crashing when cloning a plot
+≈ Fixed the attributes 'flying_speed' and 'walking_speed' not working on items
+≈ Fixed /item food set sound not working with custom sound keys
+≈ Fixed a lot of inconsistencies in action names, descriptions, and other places
+≈ Fixed line starter and caller broken messages displaying when shift-breaking a line starter or a code block with brackets
+≈ Fixed /action erroring when trying to auto-complete at spawn
+≈ Fixed Set Variable: Set Item Custom Tag not working on items with large NBT
+≈ Fixed /item get causing an internal error when the specified block doesn't have an item form i.e. 'end_portal'
+≈ Fixed /item model set automatically using the 'minecraft:' namespace
+≈ Fixed /item modeldata not being able to set strings, flags, floats, and colors
+≈ Fixed Sculk Catalysts, Sculk Shriekers and Vaults being able to trigger
+≈ Fixed run_command click events showing a confirmation screen
+≈ Fixed If Player: Is Movement Key Pressed not working
+≈ Fixed /loc get working relative to code space in dev mode
+≈ Fixed Entity Action: Set Dye Color not working when the color light gray is selected

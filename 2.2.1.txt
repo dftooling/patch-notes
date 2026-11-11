@@ -1,0 +1,4 @@
+Released: September 5, 2016
+
+↑ WorldEdit is now much faster!
+≈ The support queue is no longer displayed backwards.

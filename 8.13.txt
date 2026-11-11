@@ -1,0 +1,43 @@
+Released: September 30, 2026
+
+
+Free Plot Descriptions
++ Plot descriptions are now free to use!
+→ Use /plot description to give a description to your plot!
+→ Anyone who previously purchased them has been refunded
+
+Minecraft 26.2
+↑ DiamondFire is now updated to Minecraft 26.2!
++ You can now use all the new blocks, mobs, sounds, particles, and attributes
++ Added 2 actions for environment options! (Hover)
+→ Set special environmental effects such as sky color, fog, and more
+
+Code Changes
++ Added Player/Entity Entity Knockback Player/Entity Events
++ Added Player/Entity Take Knockback Events
++ Added Game Action: Set Event Knockback
++ Added Game Value: Event Knockback
++ Added Game Value: Knockback Event Cause
++ Added Set Variable: Set Decorated Pot Sherds
++ Added Entity Action: Attack Entity
++ Added Entity Action: Attach Firework
++ Added Entity Action: Set Firework Detonation Ticks
++ Added 6 display entity related Game Values (Hover)
+» Changed actions with equipment slots to support the Body slot along side the Chest slot
+→ This also consolidates the separate entity-specific slots such as Horse Armor
+» Player Action: Set Name Tag Visible is now unranked
+» Renamed Entity Action: Ignite Creeper to Ignite Mob and can now ignite Sulfur Cubes
+» Renamed Player Action: Set Fog Distance to Set View Distance
+» Changed the web response rate-limit header to be case-insensitive
+» Changed the internal code item format (Hover)
+≈ Fixed the Victim target overriding the projectile target in Player Projectile Hit Event
+≈ Fixed Set Variable: Set Vector Length failing on zero-length vectors
+≈ Fixed Set Variable: Replace String failing when using "\" characters
+
+Other Changes
++ Added extra wait time in confirmation menus such as /plot clear
+» Game mode switching using F3+N and F3+F4 is now allowed when /gamemode is available
+» Operator Utilities in Options → Controls can now be enabled
+≈ Fixed Print Debug and LagSlayer messages teleporting incorrectly on World Plots
+≈ Fixed re-claiming the same plot ID causing issues
+≈ Fixed custom head plot icons turning into paper after some time

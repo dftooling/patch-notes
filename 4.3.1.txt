@@ -1,0 +1,30 @@
+Released: December 26, 2018
+
+
+Changes and Additions
+↑ Shift + Left Clicking the Support Star will now show your support stats.
++ Added a dolphin pet.
++ You can now disable your pet's aura.
++ Improved the potion effect menu!
+→ Potion effect names and colors are now more accurate.
+→ Potion effect icons are now potion items that reflect the applicable potion's color.
+→ There is now a level formula shown if applicable in the lore of potion effects.
+↑ Greatly improved /locate.
+→ Using /locate with no arguments will locate yourself.
+→ You can now click the message to join the plot of the player you located.
+↑ Set Variable: Increment/Decrement now defaults to 1 if no amount argument is provided.
+→ Set Variable: Set To Distance now rounds to the nearest integer.
++ All player event rate limits have been removed! You can now more reliably cancel events such as the right click event.
+
+Bug Fixes
+↑ We have upgraded to a newer WorldEdit version to be less buggy and more stable.
+≈ Blacklisted blocks such as chests and torches can now only be placed one at a time with Set Block.
+≈ Ice and leaves will no longer decay.
+≈ The Iron Golem pet can now be purchased.
+≈ A few database issues such as /joins not displaying correctly have been resolved.
+≈ If Player: Is Holding now works properly.
+≈ Fixed mismatched location and number colors in /plot vars.
+≈ Sending a chat message while on cooldown will no longer reset your cooldown duration
+≈ Fixed an exploit with Call Function that allowed players to bypass rank restrictions.
+≈ Select Object can no longer select despawned entities.
+≈ Updated the link in /rules to be correct.

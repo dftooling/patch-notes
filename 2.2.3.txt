@@ -1,0 +1,8 @@
+Released: September 19, 2016
+
+↑ Nodes now have codenames that accompany their numbers.
++ There is now a Node Select menu.
+
+≈ Support queue is once again the correct way around.
+≈ Fixed issues with favorited plots.
+≈ Chests and signs will become invisible far less frequently than previously.

@@ -1,0 +1,10 @@
+Released: June 26, 2019
+
+→ This update expands on 5.0's noise actions.
++ Perlin, Voronoi, and Worley noise now accept a seed parameter.
++ Perlin noise now supports 3 fractal types.
++ Voronoi and Worley noise now accept a scatter value.
++ Voronoi and Worley noise now support euclidean, manhattan, and natural cell edges.
++ Worley noise now supports 6 different distance calculation types.
+
+↑ Noise accuracy has been improved.

@@ -1,0 +1,12 @@
+Released: March 6, 2023
+
+
+Tag Variables
++ You can now assign a variable item onto code chest tags
+→ Tag option will be selected from the text value of the variable
+
+Miscellaneous
++ Player Action: Play Sound from Entity
+→ Plays a sound effect that follows a moving entity
+≈ Paintings and item frames are no longer destroyed by explosions
+≈ Token boosters are now properly consumed when activating

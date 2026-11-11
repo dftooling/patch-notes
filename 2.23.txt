@@ -1,0 +1,11 @@
+Released: December 4, 2016
+
+↑ We're now running on Minecraft 1.11!
+
++ If Player: Is Sprinting
++ If Player: Is Flying
++ Added support for the mobs added in 1.11 such as vexes and illagers.
++ Launch Projectile now allows for large fireballs by stacking two fire charges.
+
+- Most special spawn eggs are irrelevant thanks to 1.11, so most have been removed.
+- Due to some internal Minecraft changes, boss bars and holograms have been temporarily disabled.

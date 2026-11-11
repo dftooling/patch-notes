@@ -1,0 +1,16 @@
+Released: July 6, 2020
+
+→ Read the full 5.2 patch notes here: https://mcdiamondfire.enjin.com/forum/m/30117777/viewthread/32960143-52-node-beta-patch-notes
+
+» The LagSlayer limit is now multiplied by 3 for 5 seconds after the first player joins the plot. This is to allow for the extra strain chunk loading puts on the server.
+
+≈ Fixed some issues with boss bar actions.
+≈ Fixed an issue where blocks sometimes didn't break in play mode.
+≈ Fixed some sounds not getting stopped when you leave a plot.
+≈ Fixed issues with If Variable: Text Matches not working.
+≈ Fixed issues with set invulnerability ticks actions preventing local variables from being cleared.
+≈ Fixed Player Action: Set Movement Speed setting an incorrect walking speed.
+≈ Fixed issues with If Player: Is Swimming not working for certain waterlogged blocks.
+≈ Fixed Player Action: Set Death Drops not being present in the code menu.
+≈ Fixed some issues with the /item tag command.
+≈ Fixed the /support rules command not giving the correct link.

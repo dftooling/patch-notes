@@ -1,0 +1,13 @@
+Released: October 24, 2016
+
+→ Node Beta is coming soon! Test out new patches on a special, Overlord exclusive node!
+
++ Player Action: Set Saturation
++ Game Action: Play Firework Explosion
++ /flightspeed
++ Set Block now supports numerical data values.
+
+→ The maximum creator level is now 100.
+≈ Fixed whitelist bugs.
+≈ Fixed some plot unclaiming issues.
+≈ It is now impossible to push players.

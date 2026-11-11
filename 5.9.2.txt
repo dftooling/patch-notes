@@ -1,0 +1,14 @@
+Released: August 8, 2023
+
+
+Featured Plots
+→ You may now submit your plots to be featured on our Discord server (/discord)
+→ Featured plots are displayed prominently on the front page of the Game Menu!
+» Plot Categories have been moved to a sub-menu of the Game Menu.
+
+Miscellaneous
++ Player Action: Set Rain Level
++ You can now edit signs in build mode by right clicking them
+≈ Plots with too much saved variable data will now give a proper notification.
+→ Data will be rolled back to the last successful save instead of purging data.
+≈ Fixed a bug where you could spawn display entities in node spawns

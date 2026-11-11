@@ -1,0 +1,17 @@
+Released: August 11, 2022
+
+
+Support Rework
++ Queue time is now shown in game.
++ Players are required to specify a reason when requesting support.
++ Support staff can now accept player sessions by name using /support accept <player>.
+↑ Support questions are now recorded in the database.
+» The support question sound has been made more pleasant.
+» Sessions are still counted even when terminated by the player or when the support staff disconnects.
+
+Other Improvements
+» The reference book has been reworked to be more easily navigable and some previously missing information has been added.
+≈ Midas touch no longer causes glitchy player movement around slabs and stairs.
++ Game Action: Set Block Data can now optionally merge block tags instead overwriting existing data.
+» Repeat: On Range now handles negative number rangers in a more logical way.
+≈ Set Variable: Set To Text and Set Variable: Format Timestamp now properly apply the text length limit.

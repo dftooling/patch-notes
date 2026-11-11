@@ -1,0 +1,14 @@
+Released: April 7, 2025
+
+
+Prototype: Private Nodes
+→ A dedicated node where one owner can claim unlimited plots
+→ Plots on Private Nodes have 100x increased limits on LagSlayer CPU, WorldEdit, and block manipulation actions
+→ Currently in early testing; ownership is invite-only
+
+Code Changes
++ Added Set Variable: Get Web Response (Advanced)
++ Added tag to Player Action: Load Saved Inventory to suspend code execution until the action completes
+
+Fixes
+≈ Fixed some bugs that could cause node crashes

@@ -1,0 +1,32 @@
+Released: March 30, 2026
+
+
+Code Changes
++ Added 6 new target codes for UUIDs (Hover)
++ Added Set Variable: Clamp Vector
++ Added Set Variable: Get All Regex Matches
++ Added Set Variable: Get All Items
++ Added Set Variable: Get Block Collision Shape
++ Added Set Variable: Get Block Sound
+» Optimized some frequently used actions
+» Changed Entity Action: Explode to also cause potions to splash
+≈ Fixed Control: Send Debug Message not sending to support session staff
+≈ Fixed Player Action: Display Particle Line and Display Particle Ray spacing precision
+≈ Fixed Entity Action: Launch Forward velocity tag not working
+≈ Fixed Entity Action: Set Rearing not respecting the enabled tag
+≈ Fixed Game Action: Summon Lightning not applying the lightning damage type
+≈ Fixed Set Variable: Set to Decimal RGB overflowing to negative numbers
+≈ Fixed Game Value: Event Damage Cause missing some damage types
+≈ Fixed Game Value: Item Usage Progress not working for some items (Hover)
+
+Other Changes
++ Added /privatenode shout & stop aliases
+» Changed the icon of the Creaking sound category to a player head
+
+Fixes
+≈ Fixed tag count not appearing in action icons
+≈ Fixed locations in /plot vars showing incorrectly
+≈ Fixed atlas and player head sprites not being centered by actions
+≈ Fixed the particle and game value categories in the action dump
+≈ Fixed line starters sometimes not being cloned properly
+≈ Fixed spawn location not being cloned correctly

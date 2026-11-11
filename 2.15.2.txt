@@ -1,0 +1,5 @@
+Released: May 23, 2016
+
++ New special spawn eggs! Once you reach a certain creator level, you will unlock new mobs such as withers and giants.
++ You can now specify a particle trail for projectiles!
+→ Renamed the FNAF tag to Horror.

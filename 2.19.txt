@@ -1,0 +1,12 @@
+Released: August 16, 2016
+
++ Entity Action: Remove
++ Entity Action: Set Custom Name
++ Game Action: Spawn Vehicle
++ Player and Entity Actions: Ride Entity
++ New entity targets for improved selection.
+
+→ %entity is now fully supported
+→ Optimized database connections for better performance.
+→ Game Actions: Launch Firework and Spawn Item now support custom entity names
+≈ Fixed issues with out of bounds locations.

@@ -1,0 +1,10 @@
+Released: June 23, 2016
+
++ Player Event: Mob Kill Player
++ Locations now have pitch and yaw values.
++ New Runic Tornado gadget!
++ Value: Event Damage
+
+→ Quick Play no longer asks you to pick a category
+≈ Fixed some issues with decimals in relative locations.
+≈ Damage events are now properly triggered by projectiles

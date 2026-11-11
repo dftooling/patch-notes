@@ -1,0 +1,17 @@
+Released: July 11, 2019
+
++ Entity Event: Block Fall
++ Set Variable: Shift Location on All Axes
++ Set Variable: Shift Location in All Directions
++ Set Variable: Set Location Coordinate
+
+↑ Shift in Direction now supports 3-dimensional shifting.
+↑ Get Distance now supports 2D, 3D, and altitude difference.
+» the Wait action has been moved to the Control block.
+» Replaced the portal travel sound for events such as plot creation.
+» Merged the Set Coordinate actions.
+» Merged the Parse Coordinate actions.
+
+≈ Fixed a minor bug with Join Text.
+≈ Set Saddle Item will now work as expected.
+≈ Other minor bug fixes

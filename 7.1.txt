@@ -1,0 +1,23 @@
+Released: March 22, 2025
+
+
+Changes
++ Added minimessage to parameter notes
++ Added a sound to /action, and made it ignore capitalization
++ Added sound variants to the action dump
++ Added /addon list <addon>, which shows you which plot an addon is on
++ Added /plot product stats, which lists products purchased on your plot and other information
++ If Player/Entity: Is Hitbox Near Location
+
+Fixes
+≈ Plot products being purchasable whilst the plot was frozen by lagslayer
+≈ Fixed IfVar: Item Equals Ignore Durability tag not working with durability-less items
+≈ Fixed muted players being unable to use features which require chat
+≈ Fixed inventories with invalid data making saving impossible
+≈ Fixed setting the player's gamemode re-enabling the worldedit wand
+≈ Fixed /plot teleport being able to crash the server
+≈ Fixed arrow pierce and arrow no-clip being able to crash the server
+
+Plot Domains
+→ If you have a plot handle, players can now join with <handle>.diamondfire.games
+→ If a player joins DiamondFire for the first time using your plot's domain, you'll get 50 tickets. (Like plot sponsorships, this will be split according to /plot collaborators)

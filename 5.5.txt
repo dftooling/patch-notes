@@ -1,0 +1,30 @@
+Released: April 28, 2022
+
+
+Caves & Cliffs Update
++ DiamondFire is now updated to Minecraft 1.18.2!
+→ You can now access all the new blocks, new mobs, new sound effects, new particles and more!
+
+Code Changes
++ Player Action: Set Freeze Ticks
++ Player Action: Display Vibration Effect
++ Player Action: Set Fog Distance
++ Entity Action: Set Freeze Ticks
++ Entity Action: Set Axolotl Pattern
++ Entity Action: Set Glow Squid Dark Ticks
++ Entity Action: Set Goat Screaming
++ Entity Action: Ram Target
++ Entity Action: Use Item
++ Entity Action: Set Name Color
++ Entity Action: Set Visual Fire
++ Game Action: Set Sign Text Color
++ Game Value: Freeze Ticks
++ Tons of new sound effects and particles from Minecraft 1.18
+» Player Action: Display Sign Text can now toggle the glowing state of texts
+» Player Event: Player Dismount Event is now cancellable using Game Action: Cancel Event
+
+Miscellaneous
++ Axolotl Pet in the server spawn
+» Color of the hyphen (-) character in the lobby action bar has been changed from aqua to dark gray
+- Detecting "copy" (middle click) type with Game Value: Inventory Event Click Type is no longer possible unless you are in Creative mode, due to the changes in Minecraft 1.18.
+≈ Bells can no longer reveal raiders in other plots

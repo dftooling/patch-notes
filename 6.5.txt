@@ -1,0 +1,27 @@
+Released: June 1, 2024
+
+
+Pride Month
++ DiamondFire is celebrating Pride Month with some new gadgets, toggles, and much more!
+→ Get the Pride Month 2024 package in the DiamondFire store to help us make a donation to The Trevor Project charity!
++ A selection of 9 prideful cosmetic wings are now available as part of the Pride Month 2024 package
++ A selection of 9 prideful aura cosmetics are now available as part of the Pride Month 2024 package
++ The Rainbow Blaster gadget is now available in the Pride Month 2024 package
++ The Unicorn Horn cosmetic toggle is now available as part of the Pride Month 2024 package
++ A free tier of the Pride Month 2024 package, containing a selection of 9 prideful banners, is now available for 1 token!
++ The Gay in the Box, formerly Subgay, has been reopened for June
+- Removed the /resetlobbies command
+
+Rank Tags
++ Updated the rank prefixes of Overlord, Mythic, Emperor, and Noble!
++ Retired rank now shows before the donor rank instead of after.
+≈ Fixed an issue where the space between VIP and other ranks was missing while playing on a plot.
+
+Gadgets
++ The Token Party gadget has been distributed to the winners of the April Fools 2024 event
++ Wing cosmetics no longer vanish entirely while the user is moving
+» The 200k Aura is now unavailable in the token shop
+
+Miscellaneous
++ Set Variable: Bounce Number
++ Trying to connect to DiamondFire with a minimap mod will now prevent the join and display a warning message

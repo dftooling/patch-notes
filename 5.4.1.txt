@@ -1,0 +1,23 @@
+Released: December 28, 2021
+
+
+Code changes
++ Set Variable: Get All Custom Tags
++ Game Action: Set Lectern Book
++ Set Variable: Get Lectern Book
++ Set Variable: Get Lectern Page
+≈ Dictionary values are now cloned upon retrieval. This fixes some small hard-to-spot bugs in code.
+≈ Negative numbers are now properly handled when using the Round Number action.
+≈ Set Variable: Get Item Enchants now works with enchanted books.
+≈ If Variable: Is Type can now check for dictionaries.
+≈ Game Action: Generate Tree can no longer bypass plot borders.
+
+Miscellaneous touch-ups
++ /vote now shows the time left before you can vote again.
++ /stafflist now accepts an optional rank argument.
++ /reset (/rs) now works properly in spawn.
+» The tab list is now sorted by rank.
+» /s will now give you an error when you try to use it with arguments. This should cut down on accidental triggers.
+≈ The new gadgets now have descriptions.
+≈ The Jukebox gadget now plays its music in the "Note block sounds" category.
+- /tree is temporarily disabled due to a bug with WorldEdit.

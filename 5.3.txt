@@ -1,0 +1,38 @@
+Released: December 27, 2020
+
+
+Particle and Vector Update
++ Added the Vector value type (a force with direction and magnitude represented by 3 coordinates)
++ Added new Set Variable actions for vector manipulation
++ Particles now support custom motion, cluster size, color and more
++ Added new Set Variable actions for particle manipulation
++ Added new particle types: Block, Item, Instant/Ambient Effect
+
+New Actions/Values
++ Player Fish Event
++ Player Action: Set Rotation, Set Instant Respawn, Display Gateway Beam, Set to Spectator Mode, Spectate Target, Set Velocity, Face Location, Get Target Entity, Display Particle Cuboid
++ Entity Action: Set Invisible, Set Pose, Jump, Set Celebrating, Set Item Stack, Set Item Persistent, Set Riptiding, Set Fishing Wait Time, Set Velocity
++ Game Action: Set Campfire Item, Repeat: Repeat on Path
++ Set Variable: Raycast to Block/Entity, Set Map Texture, Get Head Owner, Remove Enchantment, Get/Set Item Potion Effects, Get/Set Lodestone Compass Location, Set to Bitwise Operation
++ Game Value: Inventory Event Click Type, Event Fish Type, Velocity
+
+↑ Updated server to 1.16.4
+↑ Replaced credits with tokens
++ New shop and cosmetics systems
++ Added the 'Promoted Plots' menu (used with /plot ad)
++ Added /time, /weather, /nightvis, and /itemframe
++ Advanced Set Variable Actions are now put in their respective categories with an 'Advanced' label and section
+» Improved the boss bar actions
+» Spawners can now be used as building blocks. Avoid using FAWE to place spawners, or they will emit particles
+» End Gateways will no longer emit beams. Avoid using FAWE to place End Gateways, use Game Action: Set Block instead
+» Renamed /emoticons to /characters
+
+≈ Fixed many hex color-related issues
+≈ Fixed issues with custom heads in code block menus
+≈ Fixed Jumping Jeres not jumping
+≈ Fixed Game Action: Create Particle Path modifying the locations given to the action
+≈ Fixed Player Action: Send Advancement not working. The action should now also support quotes in the advancement title
+≈ Fixed Game Action: Random Tick Block and Set Variable: Set Item Flags not working
+≈ Fixed Entity Action: Set Mob Equipment not working with armor stands
+
+→ The full patch notes can be found here: https://mcdiamondfire.com/threads/5-3-node-beta-patch-notes.427/

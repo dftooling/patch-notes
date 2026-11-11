@@ -1,0 +1,30 @@
+Released: October 22, 2026
+
+
+Plot Subscriptions
++ Added Plot Subscriptions!
+→ You may now subscribe to plots by running /subscribe while on a plot
+→ You will be notified when a plot you are subscribed to is active
+» Renamed Favorites to Bookmarks and removed the limit of 15 favorited plots
+
+Environment Command
++ New /env command to preview environmental attributes!
+→ Usable in spawn, dev, and build modes
+
+Book Actions
++ Added Player Event: Edit Book
++ Added Game Value: Edit Book Event Old Book
++ Added Game Value: Edit Book Event New Book
++ Added Set Variable: Get/Set Book Title
++ Added Set Variable: Get/Set Book Author
++ Added Set Variable: Get/Set Book Generation
++ Added Set Variable: Set Book Signed
++ Added If Game: Is Signing Book
++ Added Game Action: Set Book Signing
+
+Other Changes
++ Added Player Event: Stop Using Item
+» Debug messages you receive while not on the plot are now prefixed with the plot id
+» Renamed hand_any to any_hand in /i attribute
+≈ Fixed Environmental Attributes breaking on world plots with daylight cycle enabled
+≈ Fixed /item tag set misinterpreting values starting with a number

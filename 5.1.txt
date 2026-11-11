@@ -1,0 +1,13 @@
+Released: July 9, 2019
+
+↑ The game menu has received an update!
+
++ Repeat: For Each in List
++ Set Variable: Set to Exponent
+↑ Plot tags now have an interface.
+
+» Plot credits are now automatically granted upon leave.
+- Player Action: Give Credits
+
+≈ The tutorial is now functional.
+≈ Fixed some issues with the Set Book Text action.

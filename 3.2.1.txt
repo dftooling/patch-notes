@@ -1,0 +1,16 @@
+Released: June 20, 2017
+
++ Player Action: Play Sound Sequence
++ You can now set the note of a sound effect item.
++ New "Rest" sound effect for sound sequences.
++ Plot searching now shows more than 15 results.
+
+≈ Parrots no longer crash the server.
+≈ Fixed a bug where players were not getting CP in rare circumstances.
+≈ Rewards from before 3.2 are now properly saved.
+
+→ Player Action: Clear Chat price was dropped to 35k from 50k.
+→ Player Action: Send Dialogue price was dropped to 75k from 100k.
+→ Recall Gadget price was dropped to 50k from 150k.
+→ Basic plot price was dropped to 1M from 1.8M.
+→ Large plot price was dropped to 2.5M from 3M.

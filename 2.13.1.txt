@@ -1,0 +1,5 @@
+Released: April 5, 2016
+
++ Player Action: Set Chat Color
++ Plots will now display all time votes.
+≈ Players can no longer spawn pets in games.

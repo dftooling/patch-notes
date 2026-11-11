@@ -1,0 +1,28 @@
+Released: June 10, 2017
+
+
+Creator Rankings Rework!
+→ Earn points from playing and creating plots.
+→ Check out /level to see what's new.
+
+DiamondFire Credits
+→ Earn credits by playing on plots!
+→ Give players credits with Player Action: Reward Credits.
+→ The algorithms for giving credits will not be disclosed to prevent abuse.
+→ Use credits to purchase actions, gadgets, amd plots!
+→ Boosters will now give you more credits, but do not affect creator ranks.
+
+Menu Rework
+→ All Games can now be found in the Game Menu.
+→ Plot votes now last a week instead of a day.
+→ The hotbar in spawn is now more concise.
+
++ Player Action: Give Random Item
++ Player Action: Clear Chat
++ Annoyance Turret Gadget
++ Recall Gadget
+→ All of these features can be purchased with credits!
+
+→ Scoreboard values can now accept 32 characters instead of 16.
+≈ Fixed a few internal errors.
+≈ Fixed Set Var: Parse X/Y/Z.

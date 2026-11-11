@@ -1,0 +1,38 @@
+Released: September 26, 2023
+
+
+Code Changes
++ Player Event: Player Load Crossbow Event
++ Set Variable: Get Text Content Length
++ Set Variable: Get Block Hardness
++ Set Variable: Get Block Blast Resistance
++ Game Value: Body Yaw
++ /loom command to open the Loom menu
+» You can now put colored styled text in a variable and use %var() to change the color of another text
+→ Example: Variable "color" = <#66CC77> then SendMessage "%var(color)Hi everyone!"
+» Renamed Player Action: Set Chat Color to "Set Chat Style"
+→ The usage of the code action is not changed
+≈ Fixed Inherit Styles option not working correctly with legacy color codes
+→ Example: Concatenating 2 strings of [&b&lWhat's ], [&eup?] should now work as intended
+≈ Fixed MiniMessage tags with empty contents being stripped from Styled Text
+→ Example: Concatenating 2 styled texts of [Hello <yellow>], [world] should now work as intended
+≈ Fixed bar position in Player Action: Set/Remove Boss Bar not working as intended
+≈ Fixed Player Action: Set Inventory Menu Name not working correctly with legacy strings
+≈ UTF-16 characters will now work correctly in Player Action: Send Message with Centered tag
+≈ Function Calls can now be named using Styled Text variables
+
+Miscellaneous
+» Colors & icons of some plot categories have been changed
+» Node spawn location is now randomly shifted up to ±1 block to avoid many players overlapping
+» /vote command will no longer trigger when additional arguments are specified
+≈ You can no longer go out of the node spawn area using glitches
+≈ Thrown ender pearls can no longer teleport players in the node spawn
+≈ "/item lore", "/item name" and many related commands & code actions will no longer include redundant MiniMessage tags such as <!italic><!bold><!obfuscated>...
+≈ You can no longer use <obfuscated> tag in plot names
+≈ Plot names in the Plot Categories menu will now show up correctly
+≈ Plot names with no color codes will now show up correctly in /locate
+≈ Fixed a missing String parameter in the description of If Entity: Name Equals
+≈ Fixed the title color of Set Variable: Clear Formatting
+≈ Fixed the default value for Styled Text code items being "string"
+≈ Fixed "-i" parameter missing in the /help description of the /var command
+≈ Fixed Orbital Headgear gadget sometimes spawning in wrong direction
